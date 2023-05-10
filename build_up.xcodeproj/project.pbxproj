@@ -1,0 +1,1888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0120B0AD8E8BA9D699C5BDF0 /* SPSignupcompanysizeoptionSevenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FC417D1E65B035DFEF7326 /* SPSignupcompanysizeoptionSevenView.swift */; };
+		01688ACCB4DD80ADB2B238B3 /* ClientSignupwhybuildupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E76D67FD9E26D55AC13D /* ClientSignupwhybuildupView.swift */; };
+		0287744CE10DC8A2E68EB82B /* SignupasClientPickViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396CD47F2E885B15329BB4F /* SignupasClientPickViewModel.swift */; };
+		02D3B9073CCEB38EFB7C38A9 /* ClientSignuplanguageOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F542994240A095FA139B6 /* ClientSignuplanguageOneView.swift */; };
+		034ED4F78BB8CF06B130EC82 /* SPSignupcompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEC3AC1E1059EA00C5508F /* SPSignupcompanyView.swift */; };
+		0400A9C67ABCDFA0DA0F4BD7 /* ClientSignupnameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12D25945EC011BB82FD9E2C /* ClientSignupnameView.swift */; };
+		04E815FF9DBFEB364C453E02 /* SPSignupaddexperrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8B68D9C138CFB9241773E /* SPSignupaddexperrorView.swift */; };
+		061913BA6E6B68ACB3998034 /* SPSignupOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E35B444036F50331852D2D /* SPSignupOneViewModel.swift */; };
+		07B252BB350BC5CE46767DD9 /* SPSignupNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A86FFE7CD35DD533F782C4 /* SPSignupNameViewModel.swift */; };
+		07B39D1F8ACBA82BBE80E0D5 /* StringScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8B105B9B11E64DEE4809F /* StringScheme.swift */; };
+		0AE9F12865DF4781DDAB4136 /* SPSignupprofilevideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790883E33C9C077FF2ED8E74 /* SPSignupprofilevideoView.swift */; };
+		0B34CAE7F8C9058C115DC367 /* SignupasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5806DBBB88DEB9C7DE657 /* SignupasView.swift */; };
+		0C3E4936ADCBBE1D6D7508EB /* ClientSignupprojThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D57D80E8864DC0FF008550 /* ClientSignupprojThreeView.swift */; };
+		0E5A36ADF34712B8B3EB0003 /* ClientSignupBlueprintsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85BAC88A1B778E10752E5FE /* ClientSignupBlueprintsViewModel.swift */; };
+		0E9A566486AA1B54BD96380D /* SPSignupemailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C34715AE9D245B3D045693 /* SPSignupemailViewModel.swift */; };
+		0F94C29E9C4F1E50808A146A /* ClientSignup4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2596AC7F6F92CA6EE4C075 /* ClientSignup4ViewModel.swift */; };
+		10123CB34C800A1BD3AC2203 /* SPSignuppverrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A58C312FB088A9DB59F49 /* SPSignuppverrorViewModel.swift */; };
+		11120F1CB6B610E5AD49A932 /* ClientSignupPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5600DDA294DF2DA596EDF53 /* ClientSignupPaymentView.swift */; };
+		113B7A25DC5CCEF8A21AD636 /* ClientSignupBlueprintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164A593D10505266A092616 /* ClientSignupBlueprintsView.swift */; };
+		123CBD31938ABF3C57849676 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C828D8EAFF57904DFB857A /* LoadingView.swift */; };
+		16608763C0AB54491E89808C /* ClientSignuplanguageThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B168A57EA649E3A6A17E1B /* ClientSignuplanguageThreeView.swift */; };
+		16BA6B8AACCEA3AE5D7BF561 /* SPSignupcardinfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958685D8D51B17BD9C2EFCB /* SPSignupcardinfoViewModel.swift */; };
+		18BB3B8AF7549FCC3CC94828 /* SPSignuppastWorkErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3190CAC33DF4E444B1D1835 /* SPSignuppastWorkErrorViewModel.swift */; };
+		19159589C7A6FD30E8772A54 /* SPSignupcompanysizeoptionEightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87BB206F2B12F2B90F78BA7 /* SPSignupcompanysizeoptionEightView.swift */; };
+		1D0790B51E979CE8A5F24482 /* SPSignupexperienceerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935848B9A8817C767ECF273 /* SPSignupexperienceerView.swift */; };
+		1F0685DB2D68DD7A9DF56525 /* SPSignupuploadedvideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC276024C2858AE5CB301F6 /* SPSignupuploadedvideoView.swift */; };
+		2185B411D8AE3D82A4B1F80D /* SPSignupemailerrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B75E8CFEA9E1E3E511866 /* SPSignupemailerrorView.swift */; };
+		21FAB5025EA67D03148AF426 /* SPSignup35ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD80D3B236E20C99C09B0A /* SPSignup35ViewModel.swift */; };
+		223432A062040E23C929E9B8 /* ClientSignupYBlueprintsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F8EAF59072799983DA884 /* ClientSignupYBlueprintsViewModel.swift */; };
+		226986509330A1332DEAF9A7 /* SPSignupCompanySizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1933253BC91F33B3698970 /* SPSignupCompanySizeViewModel.swift */; };
+		236ADCE4431ABE01426A7311 /* SPSignupprofilevideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED83BCB615EE68BDFC25C05 /* SPSignupprofilevideoViewModel.swift */; };
+		2420F64F49A8910377D28210 /* SPSignupuploadedvideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AED282C4459381708426AF /* SPSignupuploadedvideoViewModel.swift */; };
+		2512A1E05C7BF7D5CF762ED1 /* SPSignupservTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DEB1D485989757DDEBA28 /* SPSignupservTimeView.swift */; };
+		27A59DC51D9A3ABE90D84CA3 /* SmartsearchresultlistbasicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D759A6843E4558062F1956E /* SmartsearchresultlistbasicViewModel.swift */; };
+		27B26CCB2E2AF188727FE7F6 /* SPSignupservERRORView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E24A51AC4EB8D84994E40E /* SPSignupservERRORView.swift */; };
+		282FB7D269F96F49274AEAD6 /* SPSignuppverrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4AD86B04BC278653C7BD6 /* SPSignuppverrorView.swift */; };
+		2A9633D71E7B325B7EFA51CA /* SPSignupwhyBUerrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563D7B5A75ACFB179F8D6F6C /* SPSignupwhyBUerrorView.swift */; };
+		2B60610DA4830D8EE8B91190 /* ClientSignuppropOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7019703D95DEA2B4FA65B8B /* ClientSignuppropOneView.swift */; };
+		2EAD51FD6D98FFBC8FDAA530 /* SPSignupcardinfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F86C840DF1F870E075CE1 /* SPSignupcardinfoView.swift */; };
+		30E8D3759FD2749EC47F0FC2 /* SPSignupsubdeatialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A44B402D051727F5AC2782 /* SPSignupsubdeatialsView.swift */; };
+		312BC52D1CBF8C3C76E4E97A /* ClientSignuphmoSevenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0C4CE803BEA53072865FE /* ClientSignuphmoSevenViewModel.swift */; };
+		3320998DF6503900E8405192 /* SPSignup35View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E298A208BF19C8AB920DC7 /* SPSignup35View.swift */; };
+		3419159FFE05CC416F24B126 /* sarabunregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4328AFC260602CA369F89F2D /* sarabunregular.ttf */; };
+		3483C9256F48F40941FF366F /* SPSignupservopThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136F3DC07A6A7EDCEDDEB96 /* SPSignupservopThreeView.swift */; };
+		353FA5420956B2D47391EA8D /* ClientSignuplocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F170086FA0F3FAC19A31F /* ClientSignuplocationView.swift */; };
+		358F426F7D5FA2303633B3E6 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836144385ED3A2733AC7D593 /* ColorConstants.swift */; };
+		35E0A16FDBB57CB27DAAB447 /* ClientSignuphmoSevenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26356E22782DC0B707BFD09C /* ClientSignuphmoSevenView.swift */; };
+		36CA2078F0BF397D352ED8C2 /* SPSignuplocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DE7D9DEACD6E3980F84D4 /* SPSignuplocationView.swift */; };
+		36D5AA8F28A2943E57537D7B /* FontScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E60355D8E8B74651C8736D5 /* FontScheme.swift */; };
+		3740EA4AB63AF0AF76633732 /* SPSignuplessthanoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA75490C299C308EC7EF9256 /* SPSignuplessthanoneViewModel.swift */; };
+		3753075892744DF329958BFD /* ClientSignuplanguageTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE13B41B7ECD252DC4CB60F /* ClientSignuplanguageTwoView.swift */; };
+		37ED3555579D37F37F77FEAD /* SPSignupcompanysizeoptionFiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23593AC40071FA85B0B3DD /* SPSignupcompanysizeoptionFiveViewModel.swift */; };
+		38A101729BE6CF8497FCF5DC /* SPSignuplessthanoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DF90F4B5510733DCC832FD /* SPSignuplessthanoneView.swift */; };
+		38ADD96251DABECDCDB2844E /* SignupasSPselectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE5C3A6C4403D5E1B4DD48 /* SignupasSPselectViewModel.swift */; };
+		39DDB965252DC19141D8DE87 /* ClientSignuplanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10CC419D767E156B1FCB19 /* ClientSignuplanguageViewModel.swift */; };
+		3CB1717CB9E173550F54C6B1 /* AppnavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37EC926F0C891B5D8734D4 /* AppnavigationViewModel.swift */; };
+		3D863B00E969FD337C540C47 /* SPSignupsubdeatialsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CB1FCC8F93474B77CEF99 /* SPSignupsubdeatialsViewModel.swift */; };
+		439D1826A308B8F8027D571B /* SPSignupwhybuildupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB44AD96D6D54EA3D1A586 /* SPSignupwhybuildupView.swift */; };
+		43AB0B8C4BB371B25C758F32 /* SPSignuppastworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9A70FCA92CD9801F21548 /* SPSignuppastworkView.swift */; };
+		44B45063C401F7AC355A801B /* mulishregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06545939E6E6F9DB75BDD901 /* mulishregular.ttf */; };
+		457175B4820129DB9A4D5AB3 /* ClientSignupBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684A6F2ACAB15742667721A /* ClientSignupBudgetView.swift */; };
+		4677C97A635174A1BEC7C71F /* sarabunmediumitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42B7B3E55F6D25010BEC6D9B /* sarabunmediumitalic.ttf */; };
+		48259B1154CEA1014D4C3BD2 /* SignUpforAccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458A8586CB67552638FC341 /* SignUpforAccessViewModel.swift */; };
+		49DACD89AAFD49D88AC7B529 /* SPSignupnameerrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6708FA26911DC56641ADC3 /* SPSignupnameerrorView.swift */; };
+		4B06B3E53995075F51ED495A /* mulishromanregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC397969BD50AE9533F758 /* mulishromanregular.ttf */; };
+		4B7ADBDAD2DBB1B2AFF85566 /* SPSignuplocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB3AAA830DC02EAADDDC04 /* SPSignuplocationViewModel.swift */; };
+		4BA81BB487B16B67CBB24C98 /* ClientSignuppropFourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DE1BBC06E242284984F32 /* ClientSignuppropFourViewModel.swift */; };
+		4BD539E549A8C480534A1DAB /* SPSignupOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D702A5F97F431938148079 /* SPSignupOneView.swift */; };
+		4C0E1DEFE65C74F3C21BFCF3 /* SPSignuplocationerrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA3A69BDB602AFE6E01D14 /* SPSignuplocationerrorView.swift */; };
+		4D63275C313CA379CA8B797A /* SPSignuptradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1910FFEF6BCCD0774E24E /* SPSignuptradeView.swift */; };
+		4DE07313EF5C611115690ECE /* FreemaplookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472A6FA8EEBEDE9883EA835 /* FreemaplookView.swift */; };
+		52596BD834F941089A0F1E41 /* SPSignupemailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F57EBD446B382CAC922947 /* SPSignupemailView.swift */; };
+		546B4284CB4D04AD4481D5DE /* ClientSignupconfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E8722532B4CB973A8A1F2 /* ClientSignupconfirmView.swift */; };
+		54ECEF4A28584C353374F9E6 /* mulishromanmedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6338E637A471F80C50B8F3C0 /* mulishromanmedium.ttf */; };
+		55B5547B7C3C3C89D2AC39E7 /* SPSignupNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF48289CBCA453A10826FB /* SPSignupNameView.swift */; };
+		5AABA7213C78ADDA7E6E6382 /* SPSignupcompanysizeoptionFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A211F2F71BE54AE4904EFF /* SPSignupcompanysizeoptionFiveView.swift */; };
+		5C0AD8CC042FCA04B46D0F3E /* SPSignupexperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077A71DD92580094B379FE2 /* SPSignupexperienceViewModel.swift */; };
+		5CB85872326F1153D1A441B7 /* SPSignuplocationerrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAC8068E1BE1D79A28E959 /* SPSignuplocationerrorViewModel.swift */; };
+		5FA6B88EE68164F5D53FCBA0 /* FreemaplookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B774CECF219B96A06AFAB21 /* FreemaplookViewModel.swift */; };
+		60BC6380B2A37F8C0B67EE07 /* ClientSignuppropOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19295E1730D385D41668EF1D /* ClientSignuppropOneViewModel.swift */; };
+		68CE1FB63526D114ECD95CA7 /* SPSignupservTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C2FF9B2D71D30CBA7E5E0 /* SPSignupservTimeViewModel.swift */; };
+		6B4779E070BBF05E397A4896 /* ClientSignupdevTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78721EA413C9339C57A78517 /* ClientSignupdevTwoViewModel.swift */; };
+		6B74D270CB81488F25E75224 /* mulishromanbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A67F111DBBDEC2A2FE9FDF88 /* mulishromanbold.ttf */; };
+		6BDB1881753AD0E00AECC381 /* SPSignupcompanysizeoptionSevenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF2EBDCA1725F5707FD769 /* SPSignupcompanysizeoptionSevenViewModel.swift */; };
+		6D8199D28E22C31E61D728AC /* mulishitalicmedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFE317326D4724E74EB9CEEF /* mulishitalicmedium.ttf */; };
+		6FCBCD39B5CEA10BACF91C6E /* SPSignuppastworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D224C2480EC92B0C7973 /* SPSignuppastworkViewModel.swift */; };
+		7026F48EA303D2AB39EA73BC /* SPSignupcompanyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EE9CFACEEC3B53E34EF68 /* SPSignupcompanyViewModel.swift */; };
+		709337A807ACBCC2B3A7B8CF /* ConfirmsignupcardpaymentinfotableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FAA62C38D3D83C15182F67 /* ConfirmsignupcardpaymentinfotableView.swift */; };
+		71989C574E9AB71D8BEED1C9 /* ClientSignuplanguageFourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF10FEA8741F800404A7ED5 /* ClientSignuplanguageFourViewModel.swift */; };
+		71C9309841B709A457B1DD78 /* SPSignupCompanySizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5A5272A6DEF842551405D /* SPSignupCompanySizeView.swift */; };
+		722DD9388DF2AD9255E63BEA /* SPSignupexperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276449D9B858E19540CB482 /* SPSignupexperienceView.swift */; };
+		789B9A71B1F70C8D2E90A291 /* SPSignupvideouploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F106BD5E9627F4D1170ACC /* SPSignupvideouploadViewModel.swift */; };
+		78B3D7497BDF68F15F2ECFAB /* ClientSignupemailerrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621BF4EA6E5B2B3D99EC42D2 /* ClientSignupemailerrorView.swift */; };
+		7AC89A1E0EDEF246DD2CB6D0 /* SignupasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C95191EEB19EE3E71AA6D0 /* SignupasViewModel.swift */; };
+		7C1C017E9D3CE589C69715A7 /* sarabunitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 162FCE33B3BC50337B803F33 /* sarabunitalic.ttf */; };
+		7CE4E61CCFFE999C7C362E2A /* ClientSignupprojThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663F602AAB844CF342E597F /* ClientSignupprojThreeViewModel.swift */; };
+		7F44DBA127422A5D00171570 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44DBA027422A5D00171570 /* ActivityLoader.swift */; };
+		7F77BD384685CB7B711F6B21 /* SPSignupservoptTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4E4B47C0D85D42342F834 /* SPSignupservoptTwoView.swift */; };
+		830E25D7E9BF859990F04E6E /* ClientSignuplanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFDCBA501B970EE1471E02 /* ClientSignuplanguageView.swift */; };
+		87B6722C1D2EC5AFAEA28EB0 /* SPSignuptradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8945FB2BC476B3EF114AAFF4 /* SPSignuptradeViewModel.swift */; };
+		884F3E5127B0E65A00963FC4 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */; };
+		8853052627718DC500B04E6F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853052527718DC500B04E6F /* ViewExtension.swift */; };
+		8853052A27718E2D00B04E6F /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853052927718E2D00B04E6F /* EncodableExtension.swift */; };
+		8853052C2771949600B04E6F /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8853052B2771949600B04E6F /* UINavigationController.swift */; };
+		88680D1C2775C601002E964F /* ViewportHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88680D1B2775C601002E964F /* ViewportHelper.swift */; };
+		888CB47527686A000041116C /* APIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CB47427686A000041116C /* APIExtensions.swift */; };
+		88ED74EC272FFE6F0088E3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EB272FFE6F0088E3EF /* Assets.xcassets */; };
+		88ED74EF272FFE6F0088E3EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */; };
+		88ED7500272FFECA0088E3EF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74F7272FFECA0088E3EF /* Utilities.swift */; };
+		88ED7501272FFECA0088E3EF /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74F9272FFECA0088E3EF /* AppConstants.swift */; };
+		88ED7503272FFECA0088E3EF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FD272FFECA0088E3EF /* APIManager.swift */; };
+		88ED7504272FFECA0088E3EF /* build_upApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED74FF272FFECA0088E3EF /* build_upApp.swift */; };
+		8A476B323ACDF120CEFA041A /* AppnavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73778847BA89EFC7DD99023C /* AppnavigationView.swift */; };
+		8DA501233832ABA2E0F53CED /* ClientSignupwhybuildupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0CD6E7C9433CF9A76E141 /* ClientSignupwhybuildupViewModel.swift */; };
+		8E3109AC944C9B3D76D64467 /* ClientSignupSubscriptionDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8BA223F99C4348832150D /* ClientSignupSubscriptionDetailsViewModel.swift */; };
+		8ECBE7011C46DC6097EDAD36 /* SmartsearchbasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5041E7F915BA16F6A577666B /* SmartsearchbasicView.swift */; };
+		8F9EED1E5201379495EAAC10 /* ClientSignupNoBlueprintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E67C51A88370B8B57BF0A /* ClientSignupNoBlueprintsView.swift */; };
+		9242D201C64CE2712A54BB88 /* SPSignupemailerrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A8B71862BFA6D90D2228E /* SPSignupemailerrorViewModel.swift */; };
+		95121A4A5FB9F800D26C2378 /* SPSignupserviceyearsFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7517D7E42222B5ADC7619FD7 /* SPSignupserviceyearsFourView.swift */; };
+		9541F7AFF2942A619BCB05BD /* mulishromanextrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44A20AF809FA82E655507856 /* mulishromanextrabold.ttf */; };
+		960A82A92920CD04C05BC20A /* SmartsearchresultlistbasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25484A7CD1651F1C20766DBA /* SmartsearchresultlistbasicView.swift */; };
+		997F697939CD295DB9206452 /* ClientSignupEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EE2706323F60BE4C05805 /* ClientSignupEmailViewModel.swift */; };
+		99B1B7249CDF2EFB6FC6BFB4 /* ClientSignupSubscriptionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5CD8E68BAD323A4E3EF34 /* ClientSignupSubscriptionDetailsView.swift */; };
+		9A1A74AD0EF1B5A4E37C7E46 /* SPSignupwhybuildupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B7B8EE5191D3932CB27A7B /* SPSignupwhybuildupViewModel.swift */; };
+		9BAEFAA4154EE4CC69FC8A99 /* ClientSignupPrevContractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499DABB503B134E4D4578DA /* ClientSignupPrevContractView.swift */; };
+		9C95E6AEF80F234C451B86C6 /* SPSignupnameerrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EE047ABC2CF20CF5ADAE1F /* SPSignupnameerrorViewModel.swift */; };
+		9D06313A013690FC89F3A411 /* ClientSignupPrevContractViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1812C2FEA35209D4934543 /* ClientSignupPrevContractViewModel.swift */; };
+		9EC373DE3C7303B011A39A99 /* SignUpforAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD032A5BDD83F5A1AEEE26 /* SignUpforAccessView.swift */; };
+		A0FFB8D1A55EA0060F6874FF /* SPSignuppastWorkErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0AD0FC27F8AA84D738DBE8 /* SPSignuppastWorkErrorView.swift */; };
+		A1413FB8CBAD63E54C2A7FA8 /* ClientSignuptrustFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577064C024556046F4047DB /* ClientSignuptrustFiveView.swift */; };
+		A3546B68492B12D4F9EF62E8 /* ClientSignupdevTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F82A33F93377A3C261710B /* ClientSignupdevTwoView.swift */; };
+		A4F3C14B19A42FC35C80C753 /* ClientSignuplocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C743A321BC28D8A8C6BC53 /* ClientSignuplocationViewModel.swift */; };
+		A5C849ECFB677C83682F79DD /* ClientSignupNoBlueprintsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837876A063B8DC227FA284A4 /* ClientSignupNoBlueprintsViewModel.swift */; };
+		A6A21F0613C6752EF8C25219 /* SPSignupaddexpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDE92EEFCD65BA39418D18 /* SPSignupaddexpViewModel.swift */; };
+		A722A8157983EC61C8306714 /* SPSignupserviceerrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E9950575AB1EAFE0044C6 /* SPSignupserviceerrorView.swift */; };
+		B2A50D7A5EFC0DCA109CBA10 /* ClientSignupnameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3EC03D44E62A75CA85262 /* ClientSignupnameViewModel.swift */; };
+		B3FDDDC325A1E358A3BD9FA4 /* ClientSignupServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E4AE79CD6B9E2688D54BB /* ClientSignupServicesViewModel.swift */; };
+		B5BD0FE4D104279EC63A408C /* SPSignuplincenseERRORView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933B54FBCA8DC76EC23F52D /* SPSignuplincenseERRORView.swift */; };
+		B667B2411394A1EE875D7712 /* SignupasClientPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151154DB61867C4041479C12 /* SignupasClientPickView.swift */; };
+		B6DABA2A51FE7698960F09A6 /* ClientSignupBudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215DB5752EB3871AF7E442F /* ClientSignupBudgetViewModel.swift */; };
+		B7BC2EAD8AC4F3F074332009 /* sarabunbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07A6F9D90A7935040E96CD10 /* sarabunbold.ttf */; };
+		B9236A7E3E0B49A31D66C184 /* SignupconfirmationSPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E90E1A3D8F3638CCABDD /* SignupconfirmationSPViewModel.swift */; };
+		BB4B647407A4231B74C0D34B /* SPSignupcompanysizeoptionSixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B5DA843882A7AD536121F /* SPSignupcompanysizeoptionSixViewModel.swift */; };
+		BB4C45EA4E20E429103FEBB0 /* ClientSignupPaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8B1F4040250553D324DA66 /* ClientSignupPaymentViewModel.swift */; };
+		BB62828FE4A66EE24F2D13BF /* ClientSignuptrustFiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CB73031DD3E94605DEFA1 /* ClientSignuptrustFiveViewModel.swift */; };
+		C09797681FC7D821A5AB2344 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59198FB2D757AA2CEFD7A2FC /* Validation.swift */; };
+		C40AB9F82754D79E006BC5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */; };
+		C487487623B519CEE623D8BD /* SPSignupaddexpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4536584820EA9A71228533 /* SPSignupaddexpView.swift */; };
+		C57DC5337C788B8CA7C343DB /* SPSignupservoptTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7577E4FDAA94E445800E3 /* SPSignupservoptTwoViewModel.swift */; };
+		C93E0B33BDB0D1A22BD6030F /* ClientSignuplanguageFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617379147D4362769C81D1B6 /* ClientSignuplanguageFourView.swift */; };
+		CADD4E5A982CF50CBE235863 /* vocesregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690179372A27D7A2FCD38325 /* vocesregular.ttf */; };
+		D1600F0CFF4A4E8044C2BF45 /* SPSignupcompanysizeoptionSixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BEC264B199AE2B629434E /* SPSignupcompanysizeoptionSixView.swift */; };
+		D26CF972575B314218F59706 /* ClientSignupconfirmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686075E3DC57416EFC5DFA13 /* ClientSignupconfirmViewModel.swift */; };
+		D28B5B4239F2979665442943 /* interregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C05B77B346B75E88FE321 /* interregular.ttf */; };
+		D340F52F502BD2DE73EE8FB7 /* ClientSignup4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C21B8F476CEA2D1C3C746F /* ClientSignup4View.swift */; };
+		D407B38256C68FE1ECAB74C8 /* SPSignupserviceyearsFourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983EA5F431A3B763969FC049 /* SPSignupserviceyearsFourViewModel.swift */; };
+		D4316D7EDDB801387250CFC3 /* SPSignuplincenseERRORViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78750A379C13F1EFB244BA77 /* SPSignuplincenseERRORViewModel.swift */; };
+		D7E46BF7E5C5451CC16D4993 /* ClientSignuphmoSixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DED1B4DECB269850B42684D /* ClientSignuphmoSixView.swift */; };
+		DA74A21BC194FA01CCD42633 /* ClientSignuplanguageTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3DECFBCD059352A53FFB7 /* ClientSignuplanguageTwoViewModel.swift */; };
+		DA885902AC75412DEF60DA76 /* ClientSignuppropFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10ADCB6EF6BCEE216AA8988 /* ClientSignuppropFourView.swift */; };
+		DAA303492699452EBDE9B7A9 /* SPSignupexpThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C679FFADFAA31AE79A0A1B /* SPSignupexpThreeViewModel.swift */; };
+		DAF7D88B73CEF61671CA1290 /* ConfirmsignupcardpaymentinfotableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FD95447C2BF1E11634C800 /* ConfirmsignupcardpaymentinfotableViewModel.swift */; };
+		DC968A8963C78F063D65CD51 /* SPSignupexpThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1D4F37287EA18DB1FA934 /* SPSignupexpThreeView.swift */; };
+		DE2711DAB6031B9AB4237DE7 /* SPSignupserviceerrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483F8B53DD7077B65822E21 /* SPSignupserviceerrorViewModel.swift */; };
+		DF7D52BEDA009840F8D2A159 /* mulishromansemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72C0CFC458B317DD18FB08DC /* mulishromansemibold.ttf */; };
+		E0D2251BB6B3F7694274E6F9 /* SPSignupvideouploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13CF2FB5283E6B847F62036 /* SPSignupvideouploadView.swift */; };
+		E124FA1ECF1C0EF14D843D4A /* SPSignuplincenseverfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14040DF98FC9957D63AFF8CD /* SPSignuplincenseverfView.swift */; };
+		E16FA3D64314C6CD02796BAE /* SPSignupservopThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FFF25A602D034454EE2CB /* SPSignupservopThreeViewModel.swift */; };
+		E284DDD305863AC1BE6BA699 /* ClientSignuphmoSixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F46EB05238AC93615C8F76 /* ClientSignuphmoSixViewModel.swift */; };
+		E2CCD0A37F8082D8F6FD7A78 /* SignupconfirmationSPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B8D744BF1ECFCA9E3EC22 /* SignupconfirmationSPView.swift */; };
+		E37347EF7E418E68CBB2677D /* SPSignupwhyBUerrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF261D9FF1D40FF05CB0BF7 /* SPSignupwhyBUerrorViewModel.swift */; };
+		E3ECEB52F5FB39FCD13B7CC7 /* SignupasERRORView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E12A23D8BBDD1E31F3C008 /* SignupasERRORView.swift */; };
+		E5DEA0E0B9E5162FFF81CD59 /* mulishitalicregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A08781E5C1E662301BF77FA6 /* mulishitalicregular.ttf */; };
+		E5E53EFC5E7B3DAB62F5F275 /* ClientSignuplanguageThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02AC258B107E2F7C6C7CF20 /* ClientSignuplanguageThreeViewModel.swift */; };
+		E71B050C4200B5DCF3DE7B14 /* ClientSignupYBlueprintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D9670BE34706B1A568AE1 /* ClientSignupYBlueprintsView.swift */; };
+		E9E9A8E8D2F1C223B2F31D1C /* SPSignupcompanysizeoptionEightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D1BD3C326CA4EB097C847 /* SPSignupcompanysizeoptionEightViewModel.swift */; };
+		EA5C75FEF04E48D2F1B5C81A /* SPSignupservERRORViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C9979F6B1F39C234CF5A7 /* SPSignupservERRORViewModel.swift */; };
+		EB5CC2C3AEB99F4B09B16BFC /* SPSignuplincenseverfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB10281C442E841A6DA569E /* SPSignuplincenseverfViewModel.swift */; };
+		EFEC9580B48C3DA55DDA104A /* SPSignupconfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E7DDBEB43EEB763CC56C7 /* SPSignupconfirmationView.swift */; };
+		F05E9B52CD4C34BACE996DBE /* ClientSignupemailerrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B65CF957A6F8F1E93381A22 /* ClientSignupemailerrorViewModel.swift */; };
+		F1FDEEA1329600D64061FF89 /* SignupasSPselectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDD8BE911BF906E60896FA /* SignupasSPselectView.swift */; };
+		F4328E8F269927E1704FD075 /* SmartsearchbasicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945355377A133E16056E74D /* SmartsearchbasicViewModel.swift */; };
+		F48C24C365630031D5CA7BCE /* SPSignupaddexperrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614705343709E9849A6DDE3 /* SPSignupaddexperrorViewModel.swift */; };
+		F88D0B85CA352764C6B9077F /* SPSignupconfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828ACB433ECE9CFEAE9E8A7 /* SPSignupconfirmationViewModel.swift */; };
+		F9603C84913F30C55D80A0A2 /* SignupasERRORViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B7483B84A702E9F5D4DA9 /* SignupasERRORViewModel.swift */; };
+		FA7F85BAB91A9EB84FAB7EE0 /* SPSignupexperienceerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50442530BB27BE4200C792 /* SPSignupexperienceerViewModel.swift */; };
+		FB0FD19FE2C6677E4E971D4D /* ClientSignuplanguageOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156D18D2960281E3A325262 /* ClientSignuplanguageOneViewModel.swift */; };
+		FBDDF1960DC6C8DBED816D26 /* ClientSignupEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B93181B01AB1E413849594D /* ClientSignupEmailView.swift */; };
+		FEC909CB1A8B61D368B60EA6 /* ClientSignupServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0506F2E5AD90E2E6FB1E86 /* ClientSignupServicesView.swift */; };
+		FEE9106F650DB53256560050 /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4A439FF81C604DDDF7873E /* LoadingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002A8B71862BFA6D90D2228E /* SPSignupemailerrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupemailerrorViewModel.swift; sourceTree = "<group>"; };
+		0276449D9B858E19540CB482 /* SPSignupexperienceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupexperienceView.swift; sourceTree = "<group>"; };
+		0458A8586CB67552638FC341 /* SignUpforAccessViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpforAccessViewModel.swift; sourceTree = "<group>"; };
+		0483F8B53DD7077B65822E21 /* SPSignupserviceerrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupserviceerrorViewModel.swift; sourceTree = "<group>"; };
+		06545939E6E6F9DB75BDD901 /* mulishregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishregular.ttf; sourceTree = "<group>"; };
+		07A6F9D90A7935040E96CD10 /* sarabunbold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = sarabunbold.ttf; sourceTree = "<group>"; };
+		0828ACB433ECE9CFEAE9E8A7 /* SPSignupconfirmationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupconfirmationViewModel.swift; sourceTree = "<group>"; };
+		0C0FFF25A602D034454EE2CB /* SPSignupservopThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservopThreeViewModel.swift; sourceTree = "<group>"; };
+		100C9979F6B1F39C234CF5A7 /* SPSignupservERRORViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservERRORViewModel.swift; sourceTree = "<group>"; };
+		10B1910FFEF6BCCD0774E24E /* SPSignuptradeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuptradeView.swift; sourceTree = "<group>"; };
+		1164A593D10505266A092616 /* ClientSignupBlueprintsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupBlueprintsView.swift; sourceTree = "<group>"; };
+		13C21B8F476CEA2D1C3C746F /* ClientSignup4View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignup4View.swift; sourceTree = "<group>"; };
+		14040DF98FC9957D63AFF8CD /* SPSignuplincenseverfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplincenseverfView.swift; sourceTree = "<group>"; };
+		1426D224C2480EC92B0C7973 /* SPSignuppastworkViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuppastworkViewModel.swift; sourceTree = "<group>"; };
+		1499DABB503B134E4D4578DA /* ClientSignupPrevContractView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupPrevContractView.swift; sourceTree = "<group>"; };
+		151154DB61867C4041479C12 /* SignupasClientPickView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasClientPickView.swift; sourceTree = "<group>"; };
+		162FCE33B3BC50337B803F33 /* sarabunitalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = sarabunitalic.ttf; sourceTree = "<group>"; };
+		19295E1730D385D41668EF1D /* ClientSignuppropOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuppropOneViewModel.swift; sourceTree = "<group>"; };
+		1B2EE9CFACEEC3B53E34EF68 /* SPSignupcompanyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanyViewModel.swift; sourceTree = "<group>"; };
+		1BB10281C442E841A6DA569E /* SPSignuplincenseverfViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplincenseverfViewModel.swift; sourceTree = "<group>"; };
+		1CC276024C2858AE5CB301F6 /* SPSignupuploadedvideoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupuploadedvideoView.swift; sourceTree = "<group>"; };
+		1D759A6843E4558062F1956E /* SmartsearchresultlistbasicViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmartsearchresultlistbasicViewModel.swift; sourceTree = "<group>"; };
+		1F23593AC40071FA85B0B3DD /* SPSignupcompanysizeoptionFiveViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionFiveViewModel.swift; sourceTree = "<group>"; };
+		210DEB1D485989757DDEBA28 /* SPSignupservTimeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservTimeView.swift; sourceTree = "<group>"; };
+		253DE1BBC06E242284984F32 /* ClientSignuppropFourViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuppropFourViewModel.swift; sourceTree = "<group>"; };
+		25484A7CD1651F1C20766DBA /* SmartsearchresultlistbasicView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmartsearchresultlistbasicView.swift; sourceTree = "<group>"; };
+		26356E22782DC0B707BFD09C /* ClientSignuphmoSevenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuphmoSevenView.swift; sourceTree = "<group>"; };
+		26B9A70FCA92CD9801F21548 /* SPSignuppastworkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuppastworkView.swift; sourceTree = "<group>"; };
+		28FAA62C38D3D83C15182F67 /* ConfirmsignupcardpaymentinfotableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfirmsignupcardpaymentinfotableView.swift; sourceTree = "<group>"; };
+		2BE0C4CE803BEA53072865FE /* ClientSignuphmoSevenViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuphmoSevenViewModel.swift; sourceTree = "<group>"; };
+		2C50442530BB27BE4200C792 /* SPSignupexperienceerViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupexperienceerViewModel.swift; sourceTree = "<group>"; };
+		2DFEC3AC1E1059EA00C5508F /* SPSignupcompanyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanyView.swift; sourceTree = "<group>"; };
+		2FD8B68D9C138CFB9241773E /* SPSignupaddexperrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupaddexperrorView.swift; sourceTree = "<group>"; };
+		32E24A51AC4EB8D84994E40E /* SPSignupservERRORView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservERRORView.swift; sourceTree = "<group>"; };
+		32F57EBD446B382CAC922947 /* SPSignupemailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupemailView.swift; sourceTree = "<group>"; };
+		33A44B402D051727F5AC2782 /* SPSignupsubdeatialsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupsubdeatialsView.swift; sourceTree = "<group>"; };
+		34C95191EEB19EE3E71AA6D0 /* SignupasViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasViewModel.swift; sourceTree = "<group>"; };
+		37F106BD5E9627F4D1170ACC /* SPSignupvideouploadViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupvideouploadViewModel.swift; sourceTree = "<group>"; };
+		386DE7D9DEACD6E3980F84D4 /* SPSignuplocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplocationView.swift; sourceTree = "<group>"; };
+		38C828D8EAFF57904DFB857A /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3933B54FBCA8DC76EC23F52D /* SPSignuplincenseERRORView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplincenseERRORView.swift; sourceTree = "<group>"; };
+		397B75E8CFEA9E1E3E511866 /* SPSignupemailerrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupemailerrorView.swift; sourceTree = "<group>"; };
+		39FC417D1E65B035DFEF7326 /* SPSignupcompanysizeoptionSevenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionSevenView.swift; sourceTree = "<group>"; };
+		3A3B8D744BF1ECFCA9E3EC22 /* SignupconfirmationSPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupconfirmationSPView.swift; sourceTree = "<group>"; };
+		3A8E9950575AB1EAFE0044C6 /* SPSignupserviceerrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupserviceerrorView.swift; sourceTree = "<group>"; };
+		3AD8B105B9B11E64DEE4809F /* StringScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringScheme.swift; sourceTree = "<group>"; };
+		3D10CC419D767E156B1FCB19 /* ClientSignuplanguageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageViewModel.swift; sourceTree = "<group>"; };
+		3E4536584820EA9A71228533 /* SPSignupaddexpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupaddexpView.swift; sourceTree = "<group>"; };
+		3E60355D8E8B74651C8736D5 /* FontScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
+		41B5A5272A6DEF842551405D /* SPSignupCompanySizeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupCompanySizeView.swift; sourceTree = "<group>"; };
+		42B7B3E55F6D25010BEC6D9B /* sarabunmediumitalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = sarabunmediumitalic.ttf; sourceTree = "<group>"; };
+		4328AFC260602CA369F89F2D /* sarabunregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = sarabunregular.ttf; sourceTree = "<group>"; };
+		4396CD47F2E885B15329BB4F /* SignupasClientPickViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasClientPickViewModel.swift; sourceTree = "<group>"; };
+		44A20AF809FA82E655507856 /* mulishromanextrabold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishromanextrabold.ttf; sourceTree = "<group>"; };
+		4578E76D67FD9E26D55AC13D /* ClientSignupwhybuildupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupwhybuildupView.swift; sourceTree = "<group>"; };
+		4AEC397969BD50AE9533F758 /* mulishromanregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishromanregular.ttf; sourceTree = "<group>"; };
+		4DC3DECFBCD059352A53FFB7 /* ClientSignuplanguageTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageTwoViewModel.swift; sourceTree = "<group>"; };
+		4E6C05B77B346B75E88FE321 /* interregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = interregular.ttf; sourceTree = "<group>"; };
+		4EBB3AAA830DC02EAADDDC04 /* SPSignuplocationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplocationViewModel.swift; sourceTree = "<group>"; };
+		5041E7F915BA16F6A577666B /* SmartsearchbasicView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmartsearchbasicView.swift; sourceTree = "<group>"; };
+		5077A71DD92580094B379FE2 /* SPSignupexperienceViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupexperienceViewModel.swift; sourceTree = "<group>"; };
+		5136F3DC07A6A7EDCEDDEB96 /* SPSignupservopThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservopThreeView.swift; sourceTree = "<group>"; };
+		516A58C312FB088A9DB59F49 /* SPSignuppverrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuppverrorViewModel.swift; sourceTree = "<group>"; };
+		51A86FFE7CD35DD533F782C4 /* SPSignupNameViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupNameViewModel.swift; sourceTree = "<group>"; };
+		563D7B5A75ACFB179F8D6F6C /* SPSignupwhyBUerrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupwhyBUerrorView.swift; sourceTree = "<group>"; };
+		56C679FFADFAA31AE79A0A1B /* SPSignupexpThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupexpThreeViewModel.swift; sourceTree = "<group>"; };
+		59198FB2D757AA2CEFD7A2FC /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		5B65CF957A6F8F1E93381A22 /* ClientSignupemailerrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupemailerrorViewModel.swift; sourceTree = "<group>"; };
+		5D37EC926F0C891B5D8734D4 /* AppnavigationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppnavigationViewModel.swift; sourceTree = "<group>"; };
+		617379147D4362769C81D1B6 /* ClientSignuplanguageFourView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageFourView.swift; sourceTree = "<group>"; };
+		621BF4EA6E5B2B3D99EC42D2 /* ClientSignupemailerrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupemailerrorView.swift; sourceTree = "<group>"; };
+		6338E637A471F80C50B8F3C0 /* mulishromanmedium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishromanmedium.ttf; sourceTree = "<group>"; };
+		63C743A321BC28D8A8C6BC53 /* ClientSignuplocationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplocationViewModel.swift; sourceTree = "<group>"; };
+		64B4E4B47C0D85D42342F834 /* SPSignupservoptTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservoptTwoView.swift; sourceTree = "<group>"; };
+		67D8BA223F99C4348832150D /* ClientSignupSubscriptionDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupSubscriptionDetailsViewModel.swift; sourceTree = "<group>"; };
+		686075E3DC57416EFC5DFA13 /* ClientSignupconfirmViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupconfirmViewModel.swift; sourceTree = "<group>"; };
+		690179372A27D7A2FCD38325 /* vocesregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = vocesregular.ttf; sourceTree = "<group>"; };
+		6CFD80D3B236E20C99C09B0A /* SPSignup35ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignup35ViewModel.swift; sourceTree = "<group>"; };
+		6DED1B4DECB269850B42684D /* ClientSignuphmoSixView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuphmoSixView.swift; sourceTree = "<group>"; };
+		6E4B7483B84A702E9F5D4DA9 /* SignupasERRORViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasERRORViewModel.swift; sourceTree = "<group>"; };
+		72BAC8068E1BE1D79A28E959 /* SPSignuplocationerrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplocationerrorViewModel.swift; sourceTree = "<group>"; };
+		72C0CFC458B317DD18FB08DC /* mulishromansemibold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishromansemibold.ttf; sourceTree = "<group>"; };
+		73778847BA89EFC7DD99023C /* AppnavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppnavigationView.swift; sourceTree = "<group>"; };
+		741D9670BE34706B1A568AE1 /* ClientSignupYBlueprintsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupYBlueprintsView.swift; sourceTree = "<group>"; };
+		74C34715AE9D245B3D045693 /* SPSignupemailViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupemailViewModel.swift; sourceTree = "<group>"; };
+		7517D7E42222B5ADC7619FD7 /* SPSignupserviceyearsFourView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupserviceyearsFourView.swift; sourceTree = "<group>"; };
+		75B168A57EA649E3A6A17E1B /* ClientSignuplanguageThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageThreeView.swift; sourceTree = "<group>"; };
+		75EE047ABC2CF20CF5ADAE1F /* SPSignupnameerrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupnameerrorViewModel.swift; sourceTree = "<group>"; };
+		763B5DA843882A7AD536121F /* SPSignupcompanysizeoptionSixViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionSixViewModel.swift; sourceTree = "<group>"; };
+		78721EA413C9339C57A78517 /* ClientSignupdevTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupdevTwoViewModel.swift; sourceTree = "<group>"; };
+		78750A379C13F1EFB244BA77 /* SPSignuplincenseERRORViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplincenseERRORViewModel.swift; sourceTree = "<group>"; };
+		78E35B444036F50331852D2D /* SPSignupOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupOneViewModel.swift; sourceTree = "<group>"; };
+		790883E33C9C077FF2ED8E74 /* SPSignupprofilevideoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupprofilevideoView.swift; sourceTree = "<group>"; };
+		7A1CB73031DD3E94605DEFA1 /* ClientSignuptrustFiveViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuptrustFiveViewModel.swift; sourceTree = "<group>"; };
+		7A8E8722532B4CB973A8A1F2 /* ClientSignupconfirmView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupconfirmView.swift; sourceTree = "<group>"; };
+		7B93181B01AB1E413849594D /* ClientSignupEmailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupEmailView.swift; sourceTree = "<group>"; };
+		7F44DBA027422A5D00171570 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
+		7FF10FEA8741F800404A7ED5 /* ClientSignuplanguageFourViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageFourViewModel.swift; sourceTree = "<group>"; };
+		80D3EC03D44E62A75CA85262 /* ClientSignupnameViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupnameViewModel.swift; sourceTree = "<group>"; };
+		836144385ED3A2733AC7D593 /* ColorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		837876A063B8DC227FA284A4 /* ClientSignupNoBlueprintsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupNoBlueprintsViewModel.swift; sourceTree = "<group>"; };
+		83AED282C4459381708426AF /* SPSignupuploadedvideoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupuploadedvideoViewModel.swift; sourceTree = "<group>"; };
+		87A7577E4FDAA94E445800E3 /* SPSignupservoptTwoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservoptTwoViewModel.swift; sourceTree = "<group>"; };
+		884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		8853052527718DC500B04E6F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		8853052927718E2D00B04E6F /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		8853052B2771949600B04E6F /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		88680D1B2775C601002E964F /* ViewportHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewportHelper.swift; sourceTree = "<group>"; };
+		888CB47427686A000041116C /* APIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIExtensions.swift; sourceTree = "<group>"; };
+		88ED74E4272FFE6E0088E3EF /* build_up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = build_up.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ED74EB272FFE6F0088E3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88ED74F0272FFE6F0088E3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ED74F7272FFECA0088E3EF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		88ED74F9272FFECA0088E3EF /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		88ED74FD272FFECA0088E3EF /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		88ED74FF272FFECA0088E3EF /* build_upApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = build_upApp.swift; sourceTree = "<group>"; };
+		8945FB2BC476B3EF114AAFF4 /* SPSignuptradeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuptradeViewModel.swift; sourceTree = "<group>"; };
+		8958685D8D51B17BD9C2EFCB /* SPSignupcardinfoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcardinfoViewModel.swift; sourceTree = "<group>"; };
+		8B2F542994240A095FA139B6 /* ClientSignuplanguageOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageOneView.swift; sourceTree = "<group>"; };
+		8B774CECF219B96A06AFAB21 /* FreemaplookViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FreemaplookViewModel.swift; sourceTree = "<group>"; };
+		8ECF2EBDCA1725F5707FD769 /* SPSignupcompanysizeoptionSevenViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionSevenViewModel.swift; sourceTree = "<group>"; };
+		8F4A439FF81C604DDDF7873E /* LoadingViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingViewModel.swift; sourceTree = "<group>"; };
+		90E12A23D8BBDD1E31F3C008 /* SignupasERRORView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasERRORView.swift; sourceTree = "<group>"; };
+		92F4AD86B04BC278653C7BD6 /* SPSignuppverrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuppverrorView.swift; sourceTree = "<group>"; };
+		95A1D4F37287EA18DB1FA934 /* SPSignupexpThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupexpThreeView.swift; sourceTree = "<group>"; };
+		983EA5F431A3B763969FC049 /* SPSignupserviceyearsFourViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupserviceyearsFourViewModel.swift; sourceTree = "<group>"; };
+		985F170086FA0F3FAC19A31F /* ClientSignuplocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplocationView.swift; sourceTree = "<group>"; };
+		9BDA3A69BDB602AFE6E01D14 /* SPSignuplocationerrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplocationerrorView.swift; sourceTree = "<group>"; };
+		9FA9E90E1A3D8F3638CCABDD /* SignupconfirmationSPViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupconfirmationSPViewModel.swift; sourceTree = "<group>"; };
+		9FB5CD8E68BAD323A4E3EF34 /* ClientSignupSubscriptionDetailsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupSubscriptionDetailsView.swift; sourceTree = "<group>"; };
+		A08781E5C1E662301BF77FA6 /* mulishitalicregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishitalicregular.ttf; sourceTree = "<group>"; };
+		A2DF90F4B5510733DCC832FD /* SPSignuplessthanoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplessthanoneView.swift; sourceTree = "<group>"; };
+		A3190CAC33DF4E444B1D1835 /* SPSignuppastWorkErrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuppastWorkErrorViewModel.swift; sourceTree = "<group>"; };
+		A4EE5C3A6C4403D5E1B4DD48 /* SignupasSPselectViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasSPselectViewModel.swift; sourceTree = "<group>"; };
+		A67F111DBBDEC2A2FE9FDF88 /* mulishromanbold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishromanbold.ttf; sourceTree = "<group>"; };
+		A8E298A208BF19C8AB920DC7 /* SPSignup35View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignup35View.swift; sourceTree = "<group>"; };
+		A935848B9A8817C767ECF273 /* SPSignupexperienceerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupexperienceerView.swift; sourceTree = "<group>"; };
+		A9AF48289CBCA453A10826FB /* SPSignupNameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupNameView.swift; sourceTree = "<group>"; };
+		AA3F86C840DF1F870E075CE1 /* SPSignupcardinfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcardinfoView.swift; sourceTree = "<group>"; };
+		AB6708FA26911DC56641ADC3 /* SPSignupnameerrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupnameerrorView.swift; sourceTree = "<group>"; };
+		B12D25945EC011BB82FD9E2C /* ClientSignupnameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupnameView.swift; sourceTree = "<group>"; };
+		B156D18D2960281E3A325262 /* ClientSignuplanguageOneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageOneViewModel.swift; sourceTree = "<group>"; };
+		B2AD032A5BDD83F5A1AEEE26 /* SignUpforAccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpforAccessView.swift; sourceTree = "<group>"; };
+		BD1933253BC91F33B3698970 /* SPSignupCompanySizeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupCompanySizeViewModel.swift; sourceTree = "<group>"; };
+		BDCDD8BE911BF906E60896FA /* SignupasSPselectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasSPselectView.swift; sourceTree = "<group>"; };
+		C13CF2FB5283E6B847F62036 /* SPSignupvideouploadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupvideouploadView.swift; sourceTree = "<group>"; };
+		C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C577064C024556046F4047DB /* ClientSignuptrustFiveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuptrustFiveView.swift; sourceTree = "<group>"; };
+		C58C2FF9B2D71D30CBA7E5E0 /* SPSignupservTimeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupservTimeViewModel.swift; sourceTree = "<group>"; };
+		C614705343709E9849A6DDE3 /* SPSignupaddexperrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupaddexperrorViewModel.swift; sourceTree = "<group>"; };
+		C6F82A33F93377A3C261710B /* ClientSignupdevTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupdevTwoView.swift; sourceTree = "<group>"; };
+		C85BAC88A1B778E10752E5FE /* ClientSignupBlueprintsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupBlueprintsViewModel.swift; sourceTree = "<group>"; };
+		C9B0CD6E7C9433CF9A76E141 /* ClientSignupwhybuildupViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupwhybuildupViewModel.swift; sourceTree = "<group>"; };
+		CA8B1F4040250553D324DA66 /* ClientSignupPaymentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupPaymentViewModel.swift; sourceTree = "<group>"; };
+		CB0506F2E5AD90E2E6FB1E86 /* ClientSignupServicesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupServicesView.swift; sourceTree = "<group>"; };
+		CC0AD0FC27F8AA84D738DBE8 /* SPSignuppastWorkErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuppastWorkErrorView.swift; sourceTree = "<group>"; };
+		CD1812C2FEA35209D4934543 /* ClientSignupPrevContractViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupPrevContractViewModel.swift; sourceTree = "<group>"; };
+		CDDB44AD96D6D54EA3D1A586 /* SPSignupwhybuildupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupwhybuildupView.swift; sourceTree = "<group>"; };
+		CED83BCB615EE68BDFC25C05 /* SPSignupprofilevideoViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupprofilevideoViewModel.swift; sourceTree = "<group>"; };
+		CFE317326D4724E74EB9CEEF /* mulishitalicmedium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = mulishitalicmedium.ttf; sourceTree = "<group>"; };
+		D1D702A5F97F431938148079 /* SPSignupOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupOneView.swift; sourceTree = "<group>"; };
+		D2FD95447C2BF1E11634C800 /* ConfirmsignupcardpaymentinfotableViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfirmsignupcardpaymentinfotableViewModel.swift; sourceTree = "<group>"; };
+		D472A6FA8EEBEDE9883EA835 /* FreemaplookView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FreemaplookView.swift; sourceTree = "<group>"; };
+		D52BEC264B199AE2B629434E /* SPSignupcompanysizeoptionSixView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionSixView.swift; sourceTree = "<group>"; };
+		D5600DDA294DF2DA596EDF53 /* ClientSignupPaymentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupPaymentView.swift; sourceTree = "<group>"; };
+		D663F602AAB844CF342E597F /* ClientSignupprojThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupprojThreeViewModel.swift; sourceTree = "<group>"; };
+		D76E7DDBEB43EEB763CC56C7 /* SPSignupconfirmationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupconfirmationView.swift; sourceTree = "<group>"; };
+		D86E67C51A88370B8B57BF0A /* ClientSignupNoBlueprintsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupNoBlueprintsView.swift; sourceTree = "<group>"; };
+		D89CB1FCC8F93474B77CEF99 /* SPSignupsubdeatialsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupsubdeatialsViewModel.swift; sourceTree = "<group>"; };
+		DA0EE2706323F60BE4C05805 /* ClientSignupEmailViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupEmailViewModel.swift; sourceTree = "<group>"; };
+		DAE13B41B7ECD252DC4CB60F /* ClientSignuplanguageTwoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageTwoView.swift; sourceTree = "<group>"; };
+		E02AC258B107E2F7C6C7CF20 /* ClientSignuplanguageThreeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageThreeViewModel.swift; sourceTree = "<group>"; };
+		E10ADCB6EF6BCEE216AA8988 /* ClientSignuppropFourView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuppropFourView.swift; sourceTree = "<group>"; };
+		E3B5806DBBB88DEB9C7DE657 /* SignupasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupasView.swift; sourceTree = "<group>"; };
+		E7A211F2F71BE54AE4904EFF /* SPSignupcompanysizeoptionFiveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionFiveView.swift; sourceTree = "<group>"; };
+		E7B7B8EE5191D3932CB27A7B /* SPSignupwhybuildupViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupwhybuildupViewModel.swift; sourceTree = "<group>"; };
+		E86F8EAF59072799983DA884 /* ClientSignupYBlueprintsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupYBlueprintsViewModel.swift; sourceTree = "<group>"; };
+		E92D1BD3C326CA4EB097C847 /* SPSignupcompanysizeoptionEightViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionEightViewModel.swift; sourceTree = "<group>"; };
+		EA75490C299C308EC7EF9256 /* SPSignuplessthanoneViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignuplessthanoneViewModel.swift; sourceTree = "<group>"; };
+		EDEFDCBA501B970EE1471E02 /* ClientSignuplanguageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuplanguageView.swift; sourceTree = "<group>"; };
+		F215DB5752EB3871AF7E442F /* ClientSignupBudgetViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupBudgetViewModel.swift; sourceTree = "<group>"; };
+		F4D57D80E8864DC0FF008550 /* ClientSignupprojThreeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupprojThreeView.swift; sourceTree = "<group>"; };
+		F5BDE92EEFCD65BA39418D18 /* SPSignupaddexpViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupaddexpViewModel.swift; sourceTree = "<group>"; };
+		F684A6F2ACAB15742667721A /* ClientSignupBudgetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupBudgetView.swift; sourceTree = "<group>"; };
+		F6F46EB05238AC93615C8F76 /* ClientSignuphmoSixViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuphmoSixViewModel.swift; sourceTree = "<group>"; };
+		F7019703D95DEA2B4FA65B8B /* ClientSignuppropOneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignuppropOneView.swift; sourceTree = "<group>"; };
+		F87BB206F2B12F2B90F78BA7 /* SPSignupcompanysizeoptionEightView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupcompanysizeoptionEightView.swift; sourceTree = "<group>"; };
+		F945355377A133E16056E74D /* SmartsearchbasicViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmartsearchbasicViewModel.swift; sourceTree = "<group>"; };
+		FCF261D9FF1D40FF05CB0BF7 /* SPSignupwhyBUerrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPSignupwhyBUerrorViewModel.swift; sourceTree = "<group>"; };
+		FE6E4AE79CD6B9E2688D54BB /* ClientSignupServicesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignupServicesViewModel.swift; sourceTree = "<group>"; };
+		FF2596AC7F6F92CA6EE4C075 /* ClientSignup4ViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClientSignup4ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88ED74E1272FFE6E0088E3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00497864D6C842A1FB822656 /* SPSignupservERRORView */ = {
+			isa = PBXGroup;
+			children = (
+				32E24A51AC4EB8D84994E40E /* SPSignupservERRORView.swift */,
+				100C9979F6B1F39C234CF5A7 /* SPSignupservERRORViewModel.swift */,
+			);
+			name = SPSignupservERRORView;
+			path = SPSignupservERRORView;
+			sourceTree = "<group>";
+		};
+		024AE7CF3C4F1C6F752A069A /* ClientSignuplocationView */ = {
+			isa = PBXGroup;
+			children = (
+				985F170086FA0F3FAC19A31F /* ClientSignuplocationView.swift */,
+				63C743A321BC28D8A8C6BC53 /* ClientSignuplocationViewModel.swift */,
+			);
+			name = ClientSignuplocationView;
+			path = ClientSignuplocationView;
+			sourceTree = "<group>";
+		};
+		02699025EC081E23947B1012 /* ClientSignuplanguageView */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFDCBA501B970EE1471E02 /* ClientSignuplanguageView.swift */,
+				3D10CC419D767E156B1FCB19 /* ClientSignuplanguageViewModel.swift */,
+			);
+			name = ClientSignuplanguageView;
+			path = ClientSignuplanguageView;
+			sourceTree = "<group>";
+		};
+		05A74CB11CBCC9BD9AEAD569 /* SignUpforAccessView */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD032A5BDD83F5A1AEEE26 /* SignUpforAccessView.swift */,
+				0458A8586CB67552638FC341 /* SignUpforAccessViewModel.swift */,
+			);
+			name = SignUpforAccessView;
+			path = SignUpforAccessView;
+			sourceTree = "<group>";
+		};
+		0683EBC93221194D64B668E3 /* ClientSignuppropOneView */ = {
+			isa = PBXGroup;
+			children = (
+				F7019703D95DEA2B4FA65B8B /* ClientSignuppropOneView.swift */,
+				19295E1730D385D41668EF1D /* ClientSignuppropOneViewModel.swift */,
+			);
+			name = ClientSignuppropOneView;
+			path = ClientSignuppropOneView;
+			sourceTree = "<group>";
+		};
+		0984A9FCD5266BFE4212491C /* SPSignupnameerrorView */ = {
+			isa = PBXGroup;
+			children = (
+				AB6708FA26911DC56641ADC3 /* SPSignupnameerrorView.swift */,
+				75EE047ABC2CF20CF5ADAE1F /* SPSignupnameerrorViewModel.swift */,
+			);
+			name = SPSignupnameerrorView;
+			path = SPSignupnameerrorView;
+			sourceTree = "<group>";
+		};
+		0FB3966AD0D32C812DB78832 /* ClientSignuplanguageThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				75B168A57EA649E3A6A17E1B /* ClientSignuplanguageThreeView.swift */,
+				E02AC258B107E2F7C6C7CF20 /* ClientSignuplanguageThreeViewModel.swift */,
+			);
+			name = ClientSignuplanguageThreeView;
+			path = ClientSignuplanguageThreeView;
+			sourceTree = "<group>";
+		};
+		1403776A706F788591079016 /* SPSignupaddexpView */ = {
+			isa = PBXGroup;
+			children = (
+				3E4536584820EA9A71228533 /* SPSignupaddexpView.swift */,
+				F5BDE92EEFCD65BA39418D18 /* SPSignupaddexpViewModel.swift */,
+			);
+			name = SPSignupaddexpView;
+			path = SPSignupaddexpView;
+			sourceTree = "<group>";
+		};
+		1E533D7240784025C0940BDF /* ClientSignupNoBlueprintsView */ = {
+			isa = PBXGroup;
+			children = (
+				D86E67C51A88370B8B57BF0A /* ClientSignupNoBlueprintsView.swift */,
+				837876A063B8DC227FA284A4 /* ClientSignupNoBlueprintsViewModel.swift */,
+			);
+			name = ClientSignupNoBlueprintsView;
+			path = ClientSignupNoBlueprintsView;
+			sourceTree = "<group>";
+		};
+		223F743CDFF8E14B70B6E10C /* SPSignupNameView */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF48289CBCA453A10826FB /* SPSignupNameView.swift */,
+				51A86FFE7CD35DD533F782C4 /* SPSignupNameViewModel.swift */,
+			);
+			name = SPSignupNameView;
+			path = SPSignupNameView;
+			sourceTree = "<group>";
+		};
+		24830F067FD1E0EE36D7A3FF /* ClientSignupPaymentView */ = {
+			isa = PBXGroup;
+			children = (
+				D5600DDA294DF2DA596EDF53 /* ClientSignupPaymentView.swift */,
+				CA8B1F4040250553D324DA66 /* ClientSignupPaymentViewModel.swift */,
+			);
+			name = ClientSignupPaymentView;
+			path = ClientSignupPaymentView;
+			sourceTree = "<group>";
+		};
+		289459D1C42D8FE490E9633F /* SPSignupcardinfoView */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F86C840DF1F870E075CE1 /* SPSignupcardinfoView.swift */,
+				8958685D8D51B17BD9C2EFCB /* SPSignupcardinfoViewModel.swift */,
+			);
+			name = SPSignupcardinfoView;
+			path = SPSignupcardinfoView;
+			sourceTree = "<group>";
+		};
+		29CB521AC2E8F4632C61069F /* SignupconfirmationSPView */ = {
+			isa = PBXGroup;
+			children = (
+				3A3B8D744BF1ECFCA9E3EC22 /* SignupconfirmationSPView.swift */,
+				9FA9E90E1A3D8F3638CCABDD /* SignupconfirmationSPViewModel.swift */,
+			);
+			name = SignupconfirmationSPView;
+			path = SignupconfirmationSPView;
+			sourceTree = "<group>";
+		};
+		2E949BE97431E08366D3C506 /* ClientSignupemailerrorView */ = {
+			isa = PBXGroup;
+			children = (
+				621BF4EA6E5B2B3D99EC42D2 /* ClientSignupemailerrorView.swift */,
+				5B65CF957A6F8F1E93381A22 /* ClientSignupemailerrorViewModel.swift */,
+			);
+			name = ClientSignupemailerrorView;
+			path = ClientSignupemailerrorView;
+			sourceTree = "<group>";
+		};
+		337D4C3EEEDCF0E717AB8D8D /* SPSignupexperienceView */ = {
+			isa = PBXGroup;
+			children = (
+				0276449D9B858E19540CB482 /* SPSignupexperienceView.swift */,
+				5077A71DD92580094B379FE2 /* SPSignupexperienceViewModel.swift */,
+			);
+			name = SPSignupexperienceView;
+			path = SPSignupexperienceView;
+			sourceTree = "<group>";
+		};
+		34DF30F0E3D6C35967332F96 /* ClientSignupprojThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				F4D57D80E8864DC0FF008550 /* ClientSignupprojThreeView.swift */,
+				D663F602AAB844CF342E597F /* ClientSignupprojThreeViewModel.swift */,
+			);
+			name = ClientSignupprojThreeView;
+			path = ClientSignupprojThreeView;
+			sourceTree = "<group>";
+		};
+		3866FD4043C1739E3CB7BB6D /* SPSignupservopThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				5136F3DC07A6A7EDCEDDEB96 /* SPSignupservopThreeView.swift */,
+				0C0FFF25A602D034454EE2CB /* SPSignupservopThreeViewModel.swift */,
+			);
+			name = SPSignupservopThreeView;
+			path = SPSignupservopThreeView;
+			sourceTree = "<group>";
+		};
+		393DBAFCCD67F93AECC0ED43 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				38C828D8EAFF57904DFB857A /* LoadingView.swift */,
+				8F4A439FF81C604DDDF7873E /* LoadingViewModel.swift */,
+			);
+			name = LoadingView;
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		396BD4E7D5CDC4C257515EE3 /* ClientSignuplanguageOneView */ = {
+			isa = PBXGroup;
+			children = (
+				8B2F542994240A095FA139B6 /* ClientSignuplanguageOneView.swift */,
+				B156D18D2960281E3A325262 /* ClientSignuplanguageOneViewModel.swift */,
+			);
+			name = ClientSignuplanguageOneView;
+			path = ClientSignuplanguageOneView;
+			sourceTree = "<group>";
+		};
+		39F4E9C4C67F30D1DC52136F /* SPSignupservoptTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				64B4E4B47C0D85D42342F834 /* SPSignupservoptTwoView.swift */,
+				87A7577E4FDAA94E445800E3 /* SPSignupservoptTwoViewModel.swift */,
+			);
+			name = SPSignupservoptTwoView;
+			path = SPSignupservoptTwoView;
+			sourceTree = "<group>";
+		};
+		3D53BE22CEE1EC2E071173F3 /* ClientSignuplanguageTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				DAE13B41B7ECD252DC4CB60F /* ClientSignuplanguageTwoView.swift */,
+				4DC3DECFBCD059352A53FFB7 /* ClientSignuplanguageTwoViewModel.swift */,
+			);
+			name = ClientSignuplanguageTwoView;
+			path = ClientSignuplanguageTwoView;
+			sourceTree = "<group>";
+		};
+		3E92B8FE844495A3583B30BF /* AppnavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				73778847BA89EFC7DD99023C /* AppnavigationView.swift */,
+				5D37EC926F0C891B5D8734D4 /* AppnavigationViewModel.swift */,
+			);
+			name = AppnavigationView;
+			path = AppnavigationView;
+			sourceTree = "<group>";
+		};
+		3EB3970D054558999F9C2890 /* SPSignuplessthanoneView */ = {
+			isa = PBXGroup;
+			children = (
+				A2DF90F4B5510733DCC832FD /* SPSignuplessthanoneView.swift */,
+				EA75490C299C308EC7EF9256 /* SPSignuplessthanoneViewModel.swift */,
+			);
+			name = SPSignuplessthanoneView;
+			path = SPSignuplessthanoneView;
+			sourceTree = "<group>";
+		};
+		417D90304E87D9DDF49A0E63 /* SPSignupemailView */ = {
+			isa = PBXGroup;
+			children = (
+				32F57EBD446B382CAC922947 /* SPSignupemailView.swift */,
+				74C34715AE9D245B3D045693 /* SPSignupemailViewModel.swift */,
+			);
+			name = SPSignupemailView;
+			path = SPSignupemailView;
+			sourceTree = "<group>";
+		};
+		460AD26B880E40BA6FFD6216 /* SPSignupsubdeatialsView */ = {
+			isa = PBXGroup;
+			children = (
+				33A44B402D051727F5AC2782 /* SPSignupsubdeatialsView.swift */,
+				D89CB1FCC8F93474B77CEF99 /* SPSignupsubdeatialsViewModel.swift */,
+			);
+			name = SPSignupsubdeatialsView;
+			path = SPSignupsubdeatialsView;
+			sourceTree = "<group>";
+		};
+		5A15F16349C44C844263DDEC /* SPSignupcompanysizeoptionFiveView */ = {
+			isa = PBXGroup;
+			children = (
+				E7A211F2F71BE54AE4904EFF /* SPSignupcompanysizeoptionFiveView.swift */,
+				1F23593AC40071FA85B0B3DD /* SPSignupcompanysizeoptionFiveViewModel.swift */,
+			);
+			name = SPSignupcompanysizeoptionFiveView;
+			path = SPSignupcompanysizeoptionFiveView;
+			sourceTree = "<group>";
+		};
+		5B4DC5C1A78BDBB3BF641E87 /* SmartsearchbasicView */ = {
+			isa = PBXGroup;
+			children = (
+				5041E7F915BA16F6A577666B /* SmartsearchbasicView.swift */,
+				F945355377A133E16056E74D /* SmartsearchbasicViewModel.swift */,
+			);
+			name = SmartsearchbasicView;
+			path = SmartsearchbasicView;
+			sourceTree = "<group>";
+		};
+		5B6B879E0806A0CAF7A7A8AD /* SPSignupprofilevideoView */ = {
+			isa = PBXGroup;
+			children = (
+				790883E33C9C077FF2ED8E74 /* SPSignupprofilevideoView.swift */,
+				CED83BCB615EE68BDFC25C05 /* SPSignupprofilevideoViewModel.swift */,
+			);
+			name = SPSignupprofilevideoView;
+			path = SPSignupprofilevideoView;
+			sourceTree = "<group>";
+		};
+		5D8448985B4C5F16084ACE2F /* SPSignuplocationerrorView */ = {
+			isa = PBXGroup;
+			children = (
+				9BDA3A69BDB602AFE6E01D14 /* SPSignuplocationerrorView.swift */,
+				72BAC8068E1BE1D79A28E959 /* SPSignuplocationerrorViewModel.swift */,
+			);
+			name = SPSignuplocationerrorView;
+			path = SPSignuplocationerrorView;
+			sourceTree = "<group>";
+		};
+		615A98A1CFB4EE6EDCB896F8 /* ClientSignuppropFourView */ = {
+			isa = PBXGroup;
+			children = (
+				E10ADCB6EF6BCEE216AA8988 /* ClientSignuppropFourView.swift */,
+				253DE1BBC06E242284984F32 /* ClientSignuppropFourViewModel.swift */,
+			);
+			name = ClientSignuppropFourView;
+			path = ClientSignuppropFourView;
+			sourceTree = "<group>";
+		};
+		64FAAF0A13529BB060B7A099 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		6AA9F02D226C5B9E5FE83792 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BF22C245A045ABBF6EC6DD8 /* FreemaplookView */,
+				393DBAFCCD67F93AECC0ED43 /* LoadingView */,
+				5B4DC5C1A78BDBB3BF641E87 /* SmartsearchbasicView */,
+				A208408063AE857E2B93F25E /* SmartsearchresultlistbasicView */,
+				05A74CB11CBCC9BD9AEAD569 /* SignUpforAccessView */,
+				C006CC7E17C44A456ECEEC50 /* SignupasView */,
+				024AE7CF3C4F1C6F752A069A /* ClientSignuplocationView */,
+				70E2A2D30274ABC8844D9450 /* ClientSignupEmailView */,
+				9FEB1BC1D18A72FB7DBCBA4B /* ClientSignupwhybuildupView */,
+				7DB905FA7A6B48CEB76452FB /* SignupasClientPickView */,
+				8E43E4C2F7FE56203FD82F43 /* ClientSignupnameView */,
+				C05EBAF78004708AF55B1C84 /* ClientSignup4View */,
+				02699025EC081E23947B1012 /* ClientSignuplanguageView */,
+				B3702318B6B29FCEC8F070EC /* ClientSignupServicesView */,
+				DF73E144F69F47C1284D13C3 /* ClientSignupBlueprintsView */,
+				AB8748C8C1AF6EF2A230972C /* ClientSignupPrevContractView */,
+				D0AD1A1361149D3621500DDB /* ClientSignupBudgetView */,
+				87CDF1EC9EC638258F673722 /* ClientSignupSubscriptionDetailsView */,
+				24830F067FD1E0EE36D7A3FF /* ClientSignupPaymentView */,
+				A5924D677E0EBDEC45DCF456 /* ClientSignupconfirmView */,
+				B509F5E31CD0BD4F5806261E /* SignupasERRORView */,
+				8F98D0A9D39062FBBC5F3877 /* SignupasSPselectView */,
+				2E949BE97431E08366D3C506 /* ClientSignupemailerrorView */,
+				E30A78E18B9D0E9185A97A0D /* ClientSignupYBlueprintsView */,
+				0683EBC93221194D64B668E3 /* ClientSignuppropOneView */,
+				396BD4E7D5CDC4C257515EE3 /* ClientSignuplanguageOneView */,
+				953AFB229B66B909DE20B127 /* ClientSignupdevTwoView */,
+				1E533D7240784025C0940BDF /* ClientSignupNoBlueprintsView */,
+				3D53BE22CEE1EC2E071173F3 /* ClientSignuplanguageTwoView */,
+				34DF30F0E3D6C35967332F96 /* ClientSignupprojThreeView */,
+				0FB3966AD0D32C812DB78832 /* ClientSignuplanguageThreeView */,
+				615A98A1CFB4EE6EDCB896F8 /* ClientSignuppropFourView */,
+				D76D8654EAB49CB3E097E180 /* ClientSignuptrustFiveView */,
+				98EFDFB37A74181E814B6EC4 /* ClientSignuplanguageFourView */,
+				E0B58E8FFF47D8A71E24F63B /* ClientSignuphmoSixView */,
+				C0228B539BDB7122D5016635 /* ClientSignuphmoSevenView */,
+				289459D1C42D8FE490E9633F /* SPSignupcardinfoView */,
+				DACC30A9ACC9726730811170 /* SPSignupconfirmationView */,
+				5B6B879E0806A0CAF7A7A8AD /* SPSignupprofilevideoView */,
+				223F743CDFF8E14B70B6E10C /* SPSignupNameView */,
+				A5A87C66700BC01D38720E60 /* SPSignuplocationView */,
+				417D90304E87D9DDF49A0E63 /* SPSignupemailView */,
+				ED856EB66440A209D90789AE /* SPSignuptradeView */,
+				BD639A1DB3A960E15FBAFAF5 /* SPSignupcompanyView */,
+				F88B1FCD810FAF6050710EB7 /* SPSignupservTimeView */,
+				8FDDC48219EC4A02F8110AB8 /* SPSignupvideouploadView */,
+				B718D31BBA7C1BB6BE2ADE19 /* SPSignupwhybuildupView */,
+				1403776A706F788591079016 /* SPSignupaddexpView */,
+				337D4C3EEEDCF0E717AB8D8D /* SPSignupexperienceView */,
+				ED4D546284AAB462EB879ACD /* SPSignuplincenseverfView */,
+				BF7E8F9D2ADCD9715EEBCCE4 /* SPSignuppastworkView */,
+				CB5CCD984D5B54AEC72AE9B5 /* SPSignupOneView */,
+				460AD26B880E40BA6FFD6216 /* SPSignupsubdeatialsView */,
+				29CB521AC2E8F4632C61069F /* SignupconfirmationSPView */,
+				BEA263C09A28A2F66ACB80ED /* SPSignuppverrorView */,
+				C216382252392871EA465FD3 /* SPSignupwhyBUerrorView */,
+				C53E30725FEA06A725AF754C /* SPSignupaddexperrorView */,
+				9BC2A25901E5296F37E68FE9 /* SPSignupexperienceerView */,
+				D86B785D1C3F9A1603F70865 /* SPSignuplincenseERRORView */,
+				7B68F3D0D0A77BB734282521 /* SPSignuppastWorkErrorView */,
+				0984A9FCD5266BFE4212491C /* SPSignupnameerrorView */,
+				5D8448985B4C5F16084ACE2F /* SPSignuplocationerrorView */,
+				97B1E67524B3BAC8A464396A /* SPSignupemailerrorView */,
+				B6FBD6335635D28F21895088 /* SPSignupserviceerrorView */,
+				89D7D267E5EF4D32B671F462 /* SPSignupCompanySizeView */,
+				00497864D6C842A1FB822656 /* SPSignupservERRORView */,
+				B9938E005E14CF471574D27B /* ConfirmsignupcardpaymentinfotableView */,
+				85AA2421EEBBFEAB40B2AB23 /* SPSignupexpThreeView */,
+				D0BF601AB1B18C678FBDB00C /* SPSignupuploadedvideoView */,
+				5A15F16349C44C844263DDEC /* SPSignupcompanysizeoptionFiveView */,
+				3EB3970D054558999F9C2890 /* SPSignuplessthanoneView */,
+				D0CF43BE3A9D136C4C1FEC39 /* SPSignupcompanysizeoptionEightView */,
+				39F4E9C4C67F30D1DC52136F /* SPSignupservoptTwoView */,
+				EC03E030A5F1A44A4DAC81B9 /* SPSignup35View */,
+				8A844B8D9D07431F9B186CF8 /* SPSignupcompanysizeoptionSevenView */,
+				3866FD4043C1739E3CB7BB6D /* SPSignupservopThreeView */,
+				EA298F2B5024DD4D26F57175 /* SPSignupcompanysizeoptionSixView */,
+				6EE266DCC0EBE77AB3A0664C /* SPSignupserviceyearsFourView */,
+				3E92B8FE844495A3583B30BF /* AppnavigationView */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EE266DCC0EBE77AB3A0664C /* SPSignupserviceyearsFourView */ = {
+			isa = PBXGroup;
+			children = (
+				7517D7E42222B5ADC7619FD7 /* SPSignupserviceyearsFourView.swift */,
+				983EA5F431A3B763969FC049 /* SPSignupserviceyearsFourViewModel.swift */,
+			);
+			name = SPSignupserviceyearsFourView;
+			path = SPSignupserviceyearsFourView;
+			sourceTree = "<group>";
+		};
+		70E2A2D30274ABC8844D9450 /* ClientSignupEmailView */ = {
+			isa = PBXGroup;
+			children = (
+				7B93181B01AB1E413849594D /* ClientSignupEmailView.swift */,
+				DA0EE2706323F60BE4C05805 /* ClientSignupEmailViewModel.swift */,
+			);
+			name = ClientSignupEmailView;
+			path = ClientSignupEmailView;
+			sourceTree = "<group>";
+		};
+		77656C584FA67679DB9327CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				42B7B3E55F6D25010BEC6D9B /* sarabunmediumitalic.ttf */,
+				44A20AF809FA82E655507856 /* mulishromanextrabold.ttf */,
+				06545939E6E6F9DB75BDD901 /* mulishregular.ttf */,
+				4AEC397969BD50AE9533F758 /* mulishromanregular.ttf */,
+				A08781E5C1E662301BF77FA6 /* mulishitalicregular.ttf */,
+				6338E637A471F80C50B8F3C0 /* mulishromanmedium.ttf */,
+				72C0CFC458B317DD18FB08DC /* mulishromansemibold.ttf */,
+				4328AFC260602CA369F89F2D /* sarabunregular.ttf */,
+				162FCE33B3BC50337B803F33 /* sarabunitalic.ttf */,
+				07A6F9D90A7935040E96CD10 /* sarabunbold.ttf */,
+				A67F111DBBDEC2A2FE9FDF88 /* mulishromanbold.ttf */,
+				CFE317326D4724E74EB9CEEF /* mulishitalicmedium.ttf */,
+				690179372A27D7A2FCD38325 /* vocesregular.ttf */,
+				4E6C05B77B346B75E88FE321 /* interregular.ttf */,
+			);
+			name = Fonts;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7B68F3D0D0A77BB734282521 /* SPSignuppastWorkErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				CC0AD0FC27F8AA84D738DBE8 /* SPSignuppastWorkErrorView.swift */,
+				A3190CAC33DF4E444B1D1835 /* SPSignuppastWorkErrorViewModel.swift */,
+			);
+			name = SPSignuppastWorkErrorView;
+			path = SPSignuppastWorkErrorView;
+			sourceTree = "<group>";
+		};
+		7DB905FA7A6B48CEB76452FB /* SignupasClientPickView */ = {
+			isa = PBXGroup;
+			children = (
+				151154DB61867C4041479C12 /* SignupasClientPickView.swift */,
+				4396CD47F2E885B15329BB4F /* SignupasClientPickViewModel.swift */,
+			);
+			name = SignupasClientPickView;
+			path = SignupasClientPickView;
+			sourceTree = "<group>";
+		};
+		7F44DB9E27422A4200171570 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				88680D1A2775C5BD002E964F /* Viewport */,
+				7F44DB9F27422A4200171570 /* ActivityLoader */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7F44DB9F27422A4200171570 /* ActivityLoader */ = {
+			isa = PBXGroup;
+			children = (
+				7F44DBA027422A5D00171570 /* ActivityLoader.swift */,
+			);
+			path = ActivityLoader;
+			sourceTree = "<group>";
+		};
+		85AA2421EEBBFEAB40B2AB23 /* SPSignupexpThreeView */ = {
+			isa = PBXGroup;
+			children = (
+				95A1D4F37287EA18DB1FA934 /* SPSignupexpThreeView.swift */,
+				56C679FFADFAA31AE79A0A1B /* SPSignupexpThreeViewModel.swift */,
+			);
+			name = SPSignupexpThreeView;
+			path = SPSignupexpThreeView;
+			sourceTree = "<group>";
+		};
+		87CDF1EC9EC638258F673722 /* ClientSignupSubscriptionDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5CD8E68BAD323A4E3EF34 /* ClientSignupSubscriptionDetailsView.swift */,
+				67D8BA223F99C4348832150D /* ClientSignupSubscriptionDetailsViewModel.swift */,
+			);
+			name = ClientSignupSubscriptionDetailsView;
+			path = ClientSignupSubscriptionDetailsView;
+			sourceTree = "<group>";
+		};
+		88680D1A2775C5BD002E964F /* Viewport */ = {
+			isa = PBXGroup;
+			children = (
+				88680D1B2775C601002E964F /* ViewportHelper.swift */,
+			);
+			path = Viewport;
+			sourceTree = "<group>";
+		};
+		88ED74DB272FFE6E0088E3EF = {
+			isa = PBXGroup;
+			children = (
+				88ED74E6272FFE6E0088E3EF /* build_up */,
+				88ED74E5272FFE6E0088E3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88ED74E5272FFE6E0088E3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74E4272FFE6E0088E3EF /* build_up.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88ED74E6272FFE6E0088E3EF /* build_up */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74FC272FFECA0088E3EF /* Services */,
+				88ED74FE272FFECA0088E3EF /* Application */,
+				88ED74F8272FFECA0088E3EF /* Constants */,
+				88ED74FA272FFECA0088E3EF /* Extensions */,
+				88ED74F6272FFECA0088E3EF /* Utilities */,
+				7F44DB9E27422A4200171570 /* Helper */,
+				88ED74EB272FFE6F0088E3EF /* Assets.xcassets */,
+				88ED74F0272FFE6F0088E3EF /* Info.plist */,
+				88ED74ED272FFE6F0088E3EF /* Preview Content */,
+				CCB15722D2BDD0451DAC0F83 /* Resources */,
+				6AA9F02D226C5B9E5FE83792 /* Views */,
+				64FAAF0A13529BB060B7A099 /* CustomViews */,
+			);
+			path = build_up;
+			sourceTree = "<group>";
+		};
+		88ED74ED272FFE6F0088E3EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74EE272FFE6F0088E3EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88ED74F6272FFECA0088E3EF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74F7272FFECA0088E3EF /* Utilities.swift */,
+				59198FB2D757AA2CEFD7A2FC /* Validation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		88ED74F8272FFECA0088E3EF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74F9272FFECA0088E3EF /* AppConstants.swift */,
+				3AD8B105B9B11E64DEE4809F /* StringScheme.swift */,
+				836144385ED3A2733AC7D593 /* ColorConstants.swift */,
+				3E60355D8E8B74651C8736D5 /* FontScheme.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		88ED74FA272FFECA0088E3EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				888CB47427686A000041116C /* APIExtensions.swift */,
+				8853052527718DC500B04E6F /* ViewExtension.swift */,
+				8853052B2771949600B04E6F /* UINavigationController.swift */,
+				8853052927718E2D00B04E6F /* EncodableExtension.swift */,
+				884F3E5027B0E65A00963FC4 /* RoundedCornersView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88ED74FC272FFECA0088E3EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88ED74FD272FFECA0088E3EF /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		88ED74FE272FFECA0088E3EF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C40AB9F72754D79E006BC5D7 /* AppDelegate.swift */,
+				88ED74FF272FFECA0088E3EF /* build_upApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		89D7D267E5EF4D32B671F462 /* SPSignupCompanySizeView */ = {
+			isa = PBXGroup;
+			children = (
+				41B5A5272A6DEF842551405D /* SPSignupCompanySizeView.swift */,
+				BD1933253BC91F33B3698970 /* SPSignupCompanySizeViewModel.swift */,
+			);
+			name = SPSignupCompanySizeView;
+			path = SPSignupCompanySizeView;
+			sourceTree = "<group>";
+		};
+		8A844B8D9D07431F9B186CF8 /* SPSignupcompanysizeoptionSevenView */ = {
+			isa = PBXGroup;
+			children = (
+				39FC417D1E65B035DFEF7326 /* SPSignupcompanysizeoptionSevenView.swift */,
+				8ECF2EBDCA1725F5707FD769 /* SPSignupcompanysizeoptionSevenViewModel.swift */,
+			);
+			name = SPSignupcompanysizeoptionSevenView;
+			path = SPSignupcompanysizeoptionSevenView;
+			sourceTree = "<group>";
+		};
+		8E43E4C2F7FE56203FD82F43 /* ClientSignupnameView */ = {
+			isa = PBXGroup;
+			children = (
+				B12D25945EC011BB82FD9E2C /* ClientSignupnameView.swift */,
+				80D3EC03D44E62A75CA85262 /* ClientSignupnameViewModel.swift */,
+			);
+			name = ClientSignupnameView;
+			path = ClientSignupnameView;
+			sourceTree = "<group>";
+		};
+		8F98D0A9D39062FBBC5F3877 /* SignupasSPselectView */ = {
+			isa = PBXGroup;
+			children = (
+				BDCDD8BE911BF906E60896FA /* SignupasSPselectView.swift */,
+				A4EE5C3A6C4403D5E1B4DD48 /* SignupasSPselectViewModel.swift */,
+			);
+			name = SignupasSPselectView;
+			path = SignupasSPselectView;
+			sourceTree = "<group>";
+		};
+		8FDDC48219EC4A02F8110AB8 /* SPSignupvideouploadView */ = {
+			isa = PBXGroup;
+			children = (
+				C13CF2FB5283E6B847F62036 /* SPSignupvideouploadView.swift */,
+				37F106BD5E9627F4D1170ACC /* SPSignupvideouploadViewModel.swift */,
+			);
+			name = SPSignupvideouploadView;
+			path = SPSignupvideouploadView;
+			sourceTree = "<group>";
+		};
+		953AFB229B66B909DE20B127 /* ClientSignupdevTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				C6F82A33F93377A3C261710B /* ClientSignupdevTwoView.swift */,
+				78721EA413C9339C57A78517 /* ClientSignupdevTwoViewModel.swift */,
+			);
+			name = ClientSignupdevTwoView;
+			path = ClientSignupdevTwoView;
+			sourceTree = "<group>";
+		};
+		97B1E67524B3BAC8A464396A /* SPSignupemailerrorView */ = {
+			isa = PBXGroup;
+			children = (
+				397B75E8CFEA9E1E3E511866 /* SPSignupemailerrorView.swift */,
+				002A8B71862BFA6D90D2228E /* SPSignupemailerrorViewModel.swift */,
+			);
+			name = SPSignupemailerrorView;
+			path = SPSignupemailerrorView;
+			sourceTree = "<group>";
+		};
+		98EFDFB37A74181E814B6EC4 /* ClientSignuplanguageFourView */ = {
+			isa = PBXGroup;
+			children = (
+				617379147D4362769C81D1B6 /* ClientSignuplanguageFourView.swift */,
+				7FF10FEA8741F800404A7ED5 /* ClientSignuplanguageFourViewModel.swift */,
+			);
+			name = ClientSignuplanguageFourView;
+			path = ClientSignuplanguageFourView;
+			sourceTree = "<group>";
+		};
+		9BC2A25901E5296F37E68FE9 /* SPSignupexperienceerView */ = {
+			isa = PBXGroup;
+			children = (
+				A935848B9A8817C767ECF273 /* SPSignupexperienceerView.swift */,
+				2C50442530BB27BE4200C792 /* SPSignupexperienceerViewModel.swift */,
+			);
+			name = SPSignupexperienceerView;
+			path = SPSignupexperienceerView;
+			sourceTree = "<group>";
+		};
+		9BF22C245A045ABBF6EC6DD8 /* FreemaplookView */ = {
+			isa = PBXGroup;
+			children = (
+				D472A6FA8EEBEDE9883EA835 /* FreemaplookView.swift */,
+				8B774CECF219B96A06AFAB21 /* FreemaplookViewModel.swift */,
+			);
+			name = FreemaplookView;
+			path = FreemaplookView;
+			sourceTree = "<group>";
+		};
+		9FEB1BC1D18A72FB7DBCBA4B /* ClientSignupwhybuildupView */ = {
+			isa = PBXGroup;
+			children = (
+				4578E76D67FD9E26D55AC13D /* ClientSignupwhybuildupView.swift */,
+				C9B0CD6E7C9433CF9A76E141 /* ClientSignupwhybuildupViewModel.swift */,
+			);
+			name = ClientSignupwhybuildupView;
+			path = ClientSignupwhybuildupView;
+			sourceTree = "<group>";
+		};
+		A208408063AE857E2B93F25E /* SmartsearchresultlistbasicView */ = {
+			isa = PBXGroup;
+			children = (
+				25484A7CD1651F1C20766DBA /* SmartsearchresultlistbasicView.swift */,
+				1D759A6843E4558062F1956E /* SmartsearchresultlistbasicViewModel.swift */,
+			);
+			name = SmartsearchresultlistbasicView;
+			path = SmartsearchresultlistbasicView;
+			sourceTree = "<group>";
+		};
+		A5924D677E0EBDEC45DCF456 /* ClientSignupconfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				7A8E8722532B4CB973A8A1F2 /* ClientSignupconfirmView.swift */,
+				686075E3DC57416EFC5DFA13 /* ClientSignupconfirmViewModel.swift */,
+			);
+			name = ClientSignupconfirmView;
+			path = ClientSignupconfirmView;
+			sourceTree = "<group>";
+		};
+		A5A87C66700BC01D38720E60 /* SPSignuplocationView */ = {
+			isa = PBXGroup;
+			children = (
+				386DE7D9DEACD6E3980F84D4 /* SPSignuplocationView.swift */,
+				4EBB3AAA830DC02EAADDDC04 /* SPSignuplocationViewModel.swift */,
+			);
+			name = SPSignuplocationView;
+			path = SPSignuplocationView;
+			sourceTree = "<group>";
+		};
+		AB8748C8C1AF6EF2A230972C /* ClientSignupPrevContractView */ = {
+			isa = PBXGroup;
+			children = (
+				1499DABB503B134E4D4578DA /* ClientSignupPrevContractView.swift */,
+				CD1812C2FEA35209D4934543 /* ClientSignupPrevContractViewModel.swift */,
+			);
+			name = ClientSignupPrevContractView;
+			path = ClientSignupPrevContractView;
+			sourceTree = "<group>";
+		};
+		B3702318B6B29FCEC8F070EC /* ClientSignupServicesView */ = {
+			isa = PBXGroup;
+			children = (
+				CB0506F2E5AD90E2E6FB1E86 /* ClientSignupServicesView.swift */,
+				FE6E4AE79CD6B9E2688D54BB /* ClientSignupServicesViewModel.swift */,
+			);
+			name = ClientSignupServicesView;
+			path = ClientSignupServicesView;
+			sourceTree = "<group>";
+		};
+		B509F5E31CD0BD4F5806261E /* SignupasERRORView */ = {
+			isa = PBXGroup;
+			children = (
+				90E12A23D8BBDD1E31F3C008 /* SignupasERRORView.swift */,
+				6E4B7483B84A702E9F5D4DA9 /* SignupasERRORViewModel.swift */,
+			);
+			name = SignupasERRORView;
+			path = SignupasERRORView;
+			sourceTree = "<group>";
+		};
+		B6FBD6335635D28F21895088 /* SPSignupserviceerrorView */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E9950575AB1EAFE0044C6 /* SPSignupserviceerrorView.swift */,
+				0483F8B53DD7077B65822E21 /* SPSignupserviceerrorViewModel.swift */,
+			);
+			name = SPSignupserviceerrorView;
+			path = SPSignupserviceerrorView;
+			sourceTree = "<group>";
+		};
+		B718D31BBA7C1BB6BE2ADE19 /* SPSignupwhybuildupView */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB44AD96D6D54EA3D1A586 /* SPSignupwhybuildupView.swift */,
+				E7B7B8EE5191D3932CB27A7B /* SPSignupwhybuildupViewModel.swift */,
+			);
+			name = SPSignupwhybuildupView;
+			path = SPSignupwhybuildupView;
+			sourceTree = "<group>";
+		};
+		B9938E005E14CF471574D27B /* ConfirmsignupcardpaymentinfotableView */ = {
+			isa = PBXGroup;
+			children = (
+				28FAA62C38D3D83C15182F67 /* ConfirmsignupcardpaymentinfotableView.swift */,
+				D2FD95447C2BF1E11634C800 /* ConfirmsignupcardpaymentinfotableViewModel.swift */,
+			);
+			name = ConfirmsignupcardpaymentinfotableView;
+			path = ConfirmsignupcardpaymentinfotableView;
+			sourceTree = "<group>";
+		};
+		BD639A1DB3A960E15FBAFAF5 /* SPSignupcompanyView */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEC3AC1E1059EA00C5508F /* SPSignupcompanyView.swift */,
+				1B2EE9CFACEEC3B53E34EF68 /* SPSignupcompanyViewModel.swift */,
+			);
+			name = SPSignupcompanyView;
+			path = SPSignupcompanyView;
+			sourceTree = "<group>";
+		};
+		BEA263C09A28A2F66ACB80ED /* SPSignuppverrorView */ = {
+			isa = PBXGroup;
+			children = (
+				92F4AD86B04BC278653C7BD6 /* SPSignuppverrorView.swift */,
+				516A58C312FB088A9DB59F49 /* SPSignuppverrorViewModel.swift */,
+			);
+			name = SPSignuppverrorView;
+			path = SPSignuppverrorView;
+			sourceTree = "<group>";
+		};
+		BF7E8F9D2ADCD9715EEBCCE4 /* SPSignuppastworkView */ = {
+			isa = PBXGroup;
+			children = (
+				26B9A70FCA92CD9801F21548 /* SPSignuppastworkView.swift */,
+				1426D224C2480EC92B0C7973 /* SPSignuppastworkViewModel.swift */,
+			);
+			name = SPSignuppastworkView;
+			path = SPSignuppastworkView;
+			sourceTree = "<group>";
+		};
+		C006CC7E17C44A456ECEEC50 /* SignupasView */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5806DBBB88DEB9C7DE657 /* SignupasView.swift */,
+				34C95191EEB19EE3E71AA6D0 /* SignupasViewModel.swift */,
+			);
+			name = SignupasView;
+			path = SignupasView;
+			sourceTree = "<group>";
+		};
+		C0228B539BDB7122D5016635 /* ClientSignuphmoSevenView */ = {
+			isa = PBXGroup;
+			children = (
+				26356E22782DC0B707BFD09C /* ClientSignuphmoSevenView.swift */,
+				2BE0C4CE803BEA53072865FE /* ClientSignuphmoSevenViewModel.swift */,
+			);
+			name = ClientSignuphmoSevenView;
+			path = ClientSignuphmoSevenView;
+			sourceTree = "<group>";
+		};
+		C05EBAF78004708AF55B1C84 /* ClientSignup4View */ = {
+			isa = PBXGroup;
+			children = (
+				13C21B8F476CEA2D1C3C746F /* ClientSignup4View.swift */,
+				FF2596AC7F6F92CA6EE4C075 /* ClientSignup4ViewModel.swift */,
+			);
+			name = ClientSignup4View;
+			path = ClientSignup4View;
+			sourceTree = "<group>";
+		};
+		C216382252392871EA465FD3 /* SPSignupwhyBUerrorView */ = {
+			isa = PBXGroup;
+			children = (
+				563D7B5A75ACFB179F8D6F6C /* SPSignupwhyBUerrorView.swift */,
+				FCF261D9FF1D40FF05CB0BF7 /* SPSignupwhyBUerrorViewModel.swift */,
+			);
+			name = SPSignupwhyBUerrorView;
+			path = SPSignupwhyBUerrorView;
+			sourceTree = "<group>";
+		};
+		C53E30725FEA06A725AF754C /* SPSignupaddexperrorView */ = {
+			isa = PBXGroup;
+			children = (
+				2FD8B68D9C138CFB9241773E /* SPSignupaddexperrorView.swift */,
+				C614705343709E9849A6DDE3 /* SPSignupaddexperrorViewModel.swift */,
+			);
+			name = SPSignupaddexperrorView;
+			path = SPSignupaddexperrorView;
+			sourceTree = "<group>";
+		};
+		CB5CCD984D5B54AEC72AE9B5 /* SPSignupOneView */ = {
+			isa = PBXGroup;
+			children = (
+				D1D702A5F97F431938148079 /* SPSignupOneView.swift */,
+				78E35B444036F50331852D2D /* SPSignupOneViewModel.swift */,
+			);
+			name = SPSignupOneView;
+			path = SPSignupOneView;
+			sourceTree = "<group>";
+		};
+		CCB15722D2BDD0451DAC0F83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77656C584FA67679DB9327CD /* Fonts */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0AD1A1361149D3621500DDB /* ClientSignupBudgetView */ = {
+			isa = PBXGroup;
+			children = (
+				F684A6F2ACAB15742667721A /* ClientSignupBudgetView.swift */,
+				F215DB5752EB3871AF7E442F /* ClientSignupBudgetViewModel.swift */,
+			);
+			name = ClientSignupBudgetView;
+			path = ClientSignupBudgetView;
+			sourceTree = "<group>";
+		};
+		D0BF601AB1B18C678FBDB00C /* SPSignupuploadedvideoView */ = {
+			isa = PBXGroup;
+			children = (
+				1CC276024C2858AE5CB301F6 /* SPSignupuploadedvideoView.swift */,
+				83AED282C4459381708426AF /* SPSignupuploadedvideoViewModel.swift */,
+			);
+			name = SPSignupuploadedvideoView;
+			path = SPSignupuploadedvideoView;
+			sourceTree = "<group>";
+		};
+		D0CF43BE3A9D136C4C1FEC39 /* SPSignupcompanysizeoptionEightView */ = {
+			isa = PBXGroup;
+			children = (
+				F87BB206F2B12F2B90F78BA7 /* SPSignupcompanysizeoptionEightView.swift */,
+				E92D1BD3C326CA4EB097C847 /* SPSignupcompanysizeoptionEightViewModel.swift */,
+			);
+			name = SPSignupcompanysizeoptionEightView;
+			path = SPSignupcompanysizeoptionEightView;
+			sourceTree = "<group>";
+		};
+		D76D8654EAB49CB3E097E180 /* ClientSignuptrustFiveView */ = {
+			isa = PBXGroup;
+			children = (
+				C577064C024556046F4047DB /* ClientSignuptrustFiveView.swift */,
+				7A1CB73031DD3E94605DEFA1 /* ClientSignuptrustFiveViewModel.swift */,
+			);
+			name = ClientSignuptrustFiveView;
+			path = ClientSignuptrustFiveView;
+			sourceTree = "<group>";
+		};
+		D86B785D1C3F9A1603F70865 /* SPSignuplincenseERRORView */ = {
+			isa = PBXGroup;
+			children = (
+				3933B54FBCA8DC76EC23F52D /* SPSignuplincenseERRORView.swift */,
+				78750A379C13F1EFB244BA77 /* SPSignuplincenseERRORViewModel.swift */,
+			);
+			name = SPSignuplincenseERRORView;
+			path = SPSignuplincenseERRORView;
+			sourceTree = "<group>";
+		};
+		DACC30A9ACC9726730811170 /* SPSignupconfirmationView */ = {
+			isa = PBXGroup;
+			children = (
+				D76E7DDBEB43EEB763CC56C7 /* SPSignupconfirmationView.swift */,
+				0828ACB433ECE9CFEAE9E8A7 /* SPSignupconfirmationViewModel.swift */,
+			);
+			name = SPSignupconfirmationView;
+			path = SPSignupconfirmationView;
+			sourceTree = "<group>";
+		};
+		DF73E144F69F47C1284D13C3 /* ClientSignupBlueprintsView */ = {
+			isa = PBXGroup;
+			children = (
+				1164A593D10505266A092616 /* ClientSignupBlueprintsView.swift */,
+				C85BAC88A1B778E10752E5FE /* ClientSignupBlueprintsViewModel.swift */,
+			);
+			name = ClientSignupBlueprintsView;
+			path = ClientSignupBlueprintsView;
+			sourceTree = "<group>";
+		};
+		E0B58E8FFF47D8A71E24F63B /* ClientSignuphmoSixView */ = {
+			isa = PBXGroup;
+			children = (
+				6DED1B4DECB269850B42684D /* ClientSignuphmoSixView.swift */,
+				F6F46EB05238AC93615C8F76 /* ClientSignuphmoSixViewModel.swift */,
+			);
+			name = ClientSignuphmoSixView;
+			path = ClientSignuphmoSixView;
+			sourceTree = "<group>";
+		};
+		E30A78E18B9D0E9185A97A0D /* ClientSignupYBlueprintsView */ = {
+			isa = PBXGroup;
+			children = (
+				741D9670BE34706B1A568AE1 /* ClientSignupYBlueprintsView.swift */,
+				E86F8EAF59072799983DA884 /* ClientSignupYBlueprintsViewModel.swift */,
+			);
+			name = ClientSignupYBlueprintsView;
+			path = ClientSignupYBlueprintsView;
+			sourceTree = "<group>";
+		};
+		EA298F2B5024DD4D26F57175 /* SPSignupcompanysizeoptionSixView */ = {
+			isa = PBXGroup;
+			children = (
+				D52BEC264B199AE2B629434E /* SPSignupcompanysizeoptionSixView.swift */,
+				763B5DA843882A7AD536121F /* SPSignupcompanysizeoptionSixViewModel.swift */,
+			);
+			name = SPSignupcompanysizeoptionSixView;
+			path = SPSignupcompanysizeoptionSixView;
+			sourceTree = "<group>";
+		};
+		EC03E030A5F1A44A4DAC81B9 /* SPSignup35View */ = {
+			isa = PBXGroup;
+			children = (
+				A8E298A208BF19C8AB920DC7 /* SPSignup35View.swift */,
+				6CFD80D3B236E20C99C09B0A /* SPSignup35ViewModel.swift */,
+			);
+			name = SPSignup35View;
+			path = SPSignup35View;
+			sourceTree = "<group>";
+		};
+		ED4D546284AAB462EB879ACD /* SPSignuplincenseverfView */ = {
+			isa = PBXGroup;
+			children = (
+				14040DF98FC9957D63AFF8CD /* SPSignuplincenseverfView.swift */,
+				1BB10281C442E841A6DA569E /* SPSignuplincenseverfViewModel.swift */,
+			);
+			name = SPSignuplincenseverfView;
+			path = SPSignuplincenseverfView;
+			sourceTree = "<group>";
+		};
+		ED856EB66440A209D90789AE /* SPSignuptradeView */ = {
+			isa = PBXGroup;
+			children = (
+				10B1910FFEF6BCCD0774E24E /* SPSignuptradeView.swift */,
+				8945FB2BC476B3EF114AAFF4 /* SPSignuptradeViewModel.swift */,
+			);
+			name = SPSignuptradeView;
+			path = SPSignuptradeView;
+			sourceTree = "<group>";
+		};
+		F88B1FCD810FAF6050710EB7 /* SPSignupservTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				210DEB1D485989757DDEBA28 /* SPSignupservTimeView.swift */,
+				C58C2FF9B2D71D30CBA7E5E0 /* SPSignupservTimeViewModel.swift */,
+			);
+			name = SPSignupservTimeView;
+			path = SPSignupservTimeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88ED74E3272FFE6E0088E3EF /* build_up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "build_up" */;
+			buildPhases = (
+				88ED74E0272FFE6E0088E3EF /* Sources */,
+				88ED74E1272FFE6E0088E3EF /* Frameworks */,
+				88ED74E2272FFE6E0088E3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = build_up;
+			productName = build_up;
+			productReference = 88ED74E4272FFE6E0088E3EF /* build_up.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ED74DC272FFE6E0088E3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					88ED74E3272FFE6E0088E3EF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 88ED74DF272FFE6E0088E3EF /* Build configuration list for PBXProject "build_up" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88ED74DB272FFE6E0088E3EF;
+			productRefGroup = 88ED74E5272FFE6E0088E3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88ED74E3272FFE6E0088E3EF /* build_up */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88ED74E2272FFE6E0088E3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED74EF272FFE6F0088E3EF /* Preview Assets.xcassets in Resources */,
+				88ED74EC272FFE6F0088E3EF /* Assets.xcassets in Resources */,
+				4677C97A635174A1BEC7C71F /* sarabunmediumitalic.ttf in Resources */,
+				9541F7AFF2942A619BCB05BD /* mulishromanextrabold.ttf in Resources */,
+				44B45063C401F7AC355A801B /* mulishregular.ttf in Resources */,
+				4B06B3E53995075F51ED495A /* mulishromanregular.ttf in Resources */,
+				E5DEA0E0B9E5162FFF81CD59 /* mulishitalicregular.ttf in Resources */,
+				54ECEF4A28584C353374F9E6 /* mulishromanmedium.ttf in Resources */,
+				DF7D52BEDA009840F8D2A159 /* mulishromansemibold.ttf in Resources */,
+				3419159FFE05CC416F24B126 /* sarabunregular.ttf in Resources */,
+				7C1C017E9D3CE589C69715A7 /* sarabunitalic.ttf in Resources */,
+				B7BC2EAD8AC4F3F074332009 /* sarabunbold.ttf in Resources */,
+				6B74D270CB81488F25E75224 /* mulishromanbold.ttf in Resources */,
+				6D8199D28E22C31E61D728AC /* mulishitalicmedium.ttf in Resources */,
+				CADD4E5A982CF50CBE235863 /* vocesregular.ttf in Resources */,
+				D28B5B4239F2979665442943 /* interregular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88ED74E0272FFE6E0088E3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888CB47527686A000041116C /* APIExtensions.swift in Sources */,
+				8853052A27718E2D00B04E6F /* EncodableExtension.swift in Sources */,
+				8853052C2771949600B04E6F /* UINavigationController.swift in Sources */,
+				88ED7503272FFECA0088E3EF /* APIManager.swift in Sources */,
+				7F44DBA127422A5D00171570 /* ActivityLoader.swift in Sources */,
+				8853052627718DC500B04E6F /* ViewExtension.swift in Sources */,
+				88ED7500272FFECA0088E3EF /* Utilities.swift in Sources */,
+				88ED7504272FFECA0088E3EF /* build_upApp.swift in Sources */,
+				C40AB9F82754D79E006BC5D7 /* AppDelegate.swift in Sources */,
+				88680D1C2775C601002E964F /* ViewportHelper.swift in Sources */,
+				88ED7501272FFECA0088E3EF /* AppConstants.swift in Sources */,
+				884F3E5127B0E65A00963FC4 /* RoundedCornersView.swift in Sources */,
+				07B39D1F8ACBA82BBE80E0D5 /* StringScheme.swift in Sources */,
+				358F426F7D5FA2303633B3E6 /* ColorConstants.swift in Sources */,
+				36D5AA8F28A2943E57537D7B /* FontScheme.swift in Sources */,
+				4DE07313EF5C611115690ECE /* FreemaplookView.swift in Sources */,
+				123CBD31938ABF3C57849676 /* LoadingView.swift in Sources */,
+				8ECBE7011C46DC6097EDAD36 /* SmartsearchbasicView.swift in Sources */,
+				960A82A92920CD04C05BC20A /* SmartsearchresultlistbasicView.swift in Sources */,
+				9EC373DE3C7303B011A39A99 /* SignUpforAccessView.swift in Sources */,
+				0B34CAE7F8C9058C115DC367 /* SignupasView.swift in Sources */,
+				353FA5420956B2D47391EA8D /* ClientSignuplocationView.swift in Sources */,
+				FBDDF1960DC6C8DBED816D26 /* ClientSignupEmailView.swift in Sources */,
+				01688ACCB4DD80ADB2B238B3 /* ClientSignupwhybuildupView.swift in Sources */,
+				B667B2411394A1EE875D7712 /* SignupasClientPickView.swift in Sources */,
+				0400A9C67ABCDFA0DA0F4BD7 /* ClientSignupnameView.swift in Sources */,
+				D340F52F502BD2DE73EE8FB7 /* ClientSignup4View.swift in Sources */,
+				830E25D7E9BF859990F04E6E /* ClientSignuplanguageView.swift in Sources */,
+				FEC909CB1A8B61D368B60EA6 /* ClientSignupServicesView.swift in Sources */,
+				113B7A25DC5CCEF8A21AD636 /* ClientSignupBlueprintsView.swift in Sources */,
+				9BAEFAA4154EE4CC69FC8A99 /* ClientSignupPrevContractView.swift in Sources */,
+				457175B4820129DB9A4D5AB3 /* ClientSignupBudgetView.swift in Sources */,
+				99B1B7249CDF2EFB6FC6BFB4 /* ClientSignupSubscriptionDetailsView.swift in Sources */,
+				11120F1CB6B610E5AD49A932 /* ClientSignupPaymentView.swift in Sources */,
+				546B4284CB4D04AD4481D5DE /* ClientSignupconfirmView.swift in Sources */,
+				E3ECEB52F5FB39FCD13B7CC7 /* SignupasERRORView.swift in Sources */,
+				F1FDEEA1329600D64061FF89 /* SignupasSPselectView.swift in Sources */,
+				78B3D7497BDF68F15F2ECFAB /* ClientSignupemailerrorView.swift in Sources */,
+				E71B050C4200B5DCF3DE7B14 /* ClientSignupYBlueprintsView.swift in Sources */,
+				2B60610DA4830D8EE8B91190 /* ClientSignuppropOneView.swift in Sources */,
+				02D3B9073CCEB38EFB7C38A9 /* ClientSignuplanguageOneView.swift in Sources */,
+				A3546B68492B12D4F9EF62E8 /* ClientSignupdevTwoView.swift in Sources */,
+				8F9EED1E5201379495EAAC10 /* ClientSignupNoBlueprintsView.swift in Sources */,
+				3753075892744DF329958BFD /* ClientSignuplanguageTwoView.swift in Sources */,
+				0C3E4936ADCBBE1D6D7508EB /* ClientSignupprojThreeView.swift in Sources */,
+				16608763C0AB54491E89808C /* ClientSignuplanguageThreeView.swift in Sources */,
+				DA885902AC75412DEF60DA76 /* ClientSignuppropFourView.swift in Sources */,
+				A1413FB8CBAD63E54C2A7FA8 /* ClientSignuptrustFiveView.swift in Sources */,
+				C93E0B33BDB0D1A22BD6030F /* ClientSignuplanguageFourView.swift in Sources */,
+				D7E46BF7E5C5451CC16D4993 /* ClientSignuphmoSixView.swift in Sources */,
+				35E0A16FDBB57CB27DAAB447 /* ClientSignuphmoSevenView.swift in Sources */,
+				2EAD51FD6D98FFBC8FDAA530 /* SPSignupcardinfoView.swift in Sources */,
+				EFEC9580B48C3DA55DDA104A /* SPSignupconfirmationView.swift in Sources */,
+				0AE9F12865DF4781DDAB4136 /* SPSignupprofilevideoView.swift in Sources */,
+				55B5547B7C3C3C89D2AC39E7 /* SPSignupNameView.swift in Sources */,
+				36CA2078F0BF397D352ED8C2 /* SPSignuplocationView.swift in Sources */,
+				52596BD834F941089A0F1E41 /* SPSignupemailView.swift in Sources */,
+				4D63275C313CA379CA8B797A /* SPSignuptradeView.swift in Sources */,
+				034ED4F78BB8CF06B130EC82 /* SPSignupcompanyView.swift in Sources */,
+				2512A1E05C7BF7D5CF762ED1 /* SPSignupservTimeView.swift in Sources */,
+				E0D2251BB6B3F7694274E6F9 /* SPSignupvideouploadView.swift in Sources */,
+				439D1826A308B8F8027D571B /* SPSignupwhybuildupView.swift in Sources */,
+				C487487623B519CEE623D8BD /* SPSignupaddexpView.swift in Sources */,
+				722DD9388DF2AD9255E63BEA /* SPSignupexperienceView.swift in Sources */,
+				E124FA1ECF1C0EF14D843D4A /* SPSignuplincenseverfView.swift in Sources */,
+				43AB0B8C4BB371B25C758F32 /* SPSignuppastworkView.swift in Sources */,
+				4BD539E549A8C480534A1DAB /* SPSignupOneView.swift in Sources */,
+				30E8D3759FD2749EC47F0FC2 /* SPSignupsubdeatialsView.swift in Sources */,
+				E2CCD0A37F8082D8F6FD7A78 /* SignupconfirmationSPView.swift in Sources */,
+				282FB7D269F96F49274AEAD6 /* SPSignuppverrorView.swift in Sources */,
+				2A9633D71E7B325B7EFA51CA /* SPSignupwhyBUerrorView.swift in Sources */,
+				04E815FF9DBFEB364C453E02 /* SPSignupaddexperrorView.swift in Sources */,
+				1D0790B51E979CE8A5F24482 /* SPSignupexperienceerView.swift in Sources */,
+				B5BD0FE4D104279EC63A408C /* SPSignuplincenseERRORView.swift in Sources */,
+				A0FFB8D1A55EA0060F6874FF /* SPSignuppastWorkErrorView.swift in Sources */,
+				49DACD89AAFD49D88AC7B529 /* SPSignupnameerrorView.swift in Sources */,
+				4C0E1DEFE65C74F3C21BFCF3 /* SPSignuplocationerrorView.swift in Sources */,
+				2185B411D8AE3D82A4B1F80D /* SPSignupemailerrorView.swift in Sources */,
+				A722A8157983EC61C8306714 /* SPSignupserviceerrorView.swift in Sources */,
+				71C9309841B709A457B1DD78 /* SPSignupCompanySizeView.swift in Sources */,
+				27B26CCB2E2AF188727FE7F6 /* SPSignupservERRORView.swift in Sources */,
+				709337A807ACBCC2B3A7B8CF /* ConfirmsignupcardpaymentinfotableView.swift in Sources */,
+				DC968A8963C78F063D65CD51 /* SPSignupexpThreeView.swift in Sources */,
+				1F0685DB2D68DD7A9DF56525 /* SPSignupuploadedvideoView.swift in Sources */,
+				5AABA7213C78ADDA7E6E6382 /* SPSignupcompanysizeoptionFiveView.swift in Sources */,
+				38A101729BE6CF8497FCF5DC /* SPSignuplessthanoneView.swift in Sources */,
+				19159589C7A6FD30E8772A54 /* SPSignupcompanysizeoptionEightView.swift in Sources */,
+				7F77BD384685CB7B711F6B21 /* SPSignupservoptTwoView.swift in Sources */,
+				3320998DF6503900E8405192 /* SPSignup35View.swift in Sources */,
+				0120B0AD8E8BA9D699C5BDF0 /* SPSignupcompanysizeoptionSevenView.swift in Sources */,
+				3483C9256F48F40941FF366F /* SPSignupservopThreeView.swift in Sources */,
+				D1600F0CFF4A4E8044C2BF45 /* SPSignupcompanysizeoptionSixView.swift in Sources */,
+				95121A4A5FB9F800D26C2378 /* SPSignupserviceyearsFourView.swift in Sources */,
+				8A476B323ACDF120CEFA041A /* AppnavigationView.swift in Sources */,
+				C09797681FC7D821A5AB2344 /* Validation.swift in Sources */,
+				DA74A21BC194FA01CCD42633 /* ClientSignuplanguageTwoViewModel.swift in Sources */,
+				223432A062040E23C929E9B8 /* ClientSignupYBlueprintsViewModel.swift in Sources */,
+				3740EA4AB63AF0AF76633732 /* SPSignuplessthanoneViewModel.swift in Sources */,
+				B3FDDDC325A1E358A3BD9FA4 /* ClientSignupServicesViewModel.swift in Sources */,
+				FB0FD19FE2C6677E4E971D4D /* ClientSignuplanguageOneViewModel.swift in Sources */,
+				E9E9A8E8D2F1C223B2F31D1C /* SPSignupcompanysizeoptionEightViewModel.swift in Sources */,
+				F48C24C365630031D5CA7BCE /* SPSignupaddexperrorViewModel.swift in Sources */,
+				E37347EF7E418E68CBB2677D /* SPSignupwhyBUerrorViewModel.swift in Sources */,
+				C57DC5337C788B8CA7C343DB /* SPSignupservoptTwoViewModel.swift in Sources */,
+				E5E53EFC5E7B3DAB62F5F275 /* ClientSignuplanguageThreeViewModel.swift in Sources */,
+				A6A21F0613C6752EF8C25219 /* SPSignupaddexpViewModel.swift in Sources */,
+				37ED3555579D37F37F77FEAD /* SPSignupcompanysizeoptionFiveViewModel.swift in Sources */,
+				B2A50D7A5EFC0DCA109CBA10 /* ClientSignupnameViewModel.swift in Sources */,
+				48259B1154CEA1014D4C3BD2 /* SignUpforAccessViewModel.swift in Sources */,
+				68CE1FB63526D114ECD95CA7 /* SPSignupservTimeViewModel.swift in Sources */,
+				8E3109AC944C9B3D76D64467 /* ClientSignupSubscriptionDetailsViewModel.swift in Sources */,
+				F4328E8F269927E1704FD075 /* SmartsearchbasicViewModel.swift in Sources */,
+				4BA81BB487B16B67CBB24C98 /* ClientSignuppropFourViewModel.swift in Sources */,
+				BB4C45EA4E20E429103FEBB0 /* ClientSignupPaymentViewModel.swift in Sources */,
+				5FA6B88EE68164F5D53FCBA0 /* FreemaplookViewModel.swift in Sources */,
+				9242D201C64CE2712A54BB88 /* SPSignupemailerrorViewModel.swift in Sources */,
+				3D863B00E969FD337C540C47 /* SPSignupsubdeatialsViewModel.swift in Sources */,
+				FEE9106F650DB53256560050 /* LoadingViewModel.swift in Sources */,
+				E16FA3D64314C6CD02796BAE /* SPSignupservopThreeViewModel.swift in Sources */,
+				9C95E6AEF80F234C451B86C6 /* SPSignupnameerrorViewModel.swift in Sources */,
+				18BB3B8AF7549FCC3CC94828 /* SPSignuppastWorkErrorViewModel.swift in Sources */,
+				F9603C84913F30C55D80A0A2 /* SignupasERRORViewModel.swift in Sources */,
+				0F94C29E9C4F1E50808A146A /* ClientSignup4ViewModel.swift in Sources */,
+				A5C849ECFB677C83682F79DD /* ClientSignupNoBlueprintsViewModel.swift in Sources */,
+				A4F3C14B19A42FC35C80C753 /* ClientSignuplocationViewModel.swift in Sources */,
+				BB62828FE4A66EE24F2D13BF /* ClientSignuptrustFiveViewModel.swift in Sources */,
+				27A59DC51D9A3ABE90D84CA3 /* SmartsearchresultlistbasicViewModel.swift in Sources */,
+				7026F48EA303D2AB39EA73BC /* SPSignupcompanyViewModel.swift in Sources */,
+				DAF7D88B73CEF61671CA1290 /* ConfirmsignupcardpaymentinfotableViewModel.swift in Sources */,
+				7AC89A1E0EDEF246DD2CB6D0 /* SignupasViewModel.swift in Sources */,
+				FA7F85BAB91A9EB84FAB7EE0 /* SPSignupexperienceerViewModel.swift in Sources */,
+				3CB1717CB9E173550F54C6B1 /* AppnavigationViewModel.swift in Sources */,
+				5C0AD8CC042FCA04B46D0F3E /* SPSignupexperienceViewModel.swift in Sources */,
+				7CE4E61CCFFE999C7C362E2A /* ClientSignupprojThreeViewModel.swift in Sources */,
+				B9236A7E3E0B49A31D66C184 /* SignupconfirmationSPViewModel.swift in Sources */,
+				6FCBCD39B5CEA10BACF91C6E /* SPSignuppastworkViewModel.swift in Sources */,
+				21FAB5025EA67D03148AF426 /* SPSignup35ViewModel.swift in Sources */,
+				236ADCE4431ABE01426A7311 /* SPSignupprofilevideoViewModel.swift in Sources */,
+				997F697939CD295DB9206452 /* ClientSignupEmailViewModel.swift in Sources */,
+				38ADD96251DABECDCDB2844E /* SignupasSPselectViewModel.swift in Sources */,
+				9A1A74AD0EF1B5A4E37C7E46 /* SPSignupwhybuildupViewModel.swift in Sources */,
+				10123CB34C800A1BD3AC2203 /* SPSignuppverrorViewModel.swift in Sources */,
+				87B6722C1D2EC5AFAEA28EB0 /* SPSignuptradeViewModel.swift in Sources */,
+				061913BA6E6B68ACB3998034 /* SPSignupOneViewModel.swift in Sources */,
+				16BA6B8AACCEA3AE5D7BF561 /* SPSignupcardinfoViewModel.swift in Sources */,
+				2420F64F49A8910377D28210 /* SPSignupuploadedvideoViewModel.swift in Sources */,
+				D26CF972575B314218F59706 /* ClientSignupconfirmViewModel.swift in Sources */,
+				0287744CE10DC8A2E68EB82B /* SignupasClientPickViewModel.swift in Sources */,
+				6BDB1881753AD0E00AECC381 /* SPSignupcompanysizeoptionSevenViewModel.swift in Sources */,
+				DE2711DAB6031B9AB4237DE7 /* SPSignupserviceerrorViewModel.swift in Sources */,
+				4B7ADBDAD2DBB1B2AFF85566 /* SPSignuplocationViewModel.swift in Sources */,
+				9D06313A013690FC89F3A411 /* ClientSignupPrevContractViewModel.swift in Sources */,
+				F05E9B52CD4C34BACE996DBE /* ClientSignupemailerrorViewModel.swift in Sources */,
+				D4316D7EDDB801387250CFC3 /* SPSignuplincenseERRORViewModel.swift in Sources */,
+				E284DDD305863AC1BE6BA699 /* ClientSignuphmoSixViewModel.swift in Sources */,
+				312BC52D1CBF8C3C76E4E97A /* ClientSignuphmoSevenViewModel.swift in Sources */,
+				226986509330A1332DEAF9A7 /* SPSignupCompanySizeViewModel.swift in Sources */,
+				789B9A71B1F70C8D2E90A291 /* SPSignupvideouploadViewModel.swift in Sources */,
+				F88D0B85CA352764C6B9077F /* SPSignupconfirmationViewModel.swift in Sources */,
+				5CB85872326F1153D1A441B7 /* SPSignuplocationerrorViewModel.swift in Sources */,
+				EA5C75FEF04E48D2F1B5C81A /* SPSignupservERRORViewModel.swift in Sources */,
+				6B4779E070BBF05E397A4896 /* ClientSignupdevTwoViewModel.swift in Sources */,
+				8DA501233832ABA2E0F53CED /* ClientSignupwhybuildupViewModel.swift in Sources */,
+				EB5CC2C3AEB99F4B09B16BFC /* SPSignuplincenseverfViewModel.swift in Sources */,
+				60BC6380B2A37F8C0B67EE07 /* ClientSignuppropOneViewModel.swift in Sources */,
+				71989C574E9AB71D8BEED1C9 /* ClientSignuplanguageFourViewModel.swift in Sources */,
+				0E9A566486AA1B54BD96380D /* SPSignupemailViewModel.swift in Sources */,
+				D407B38256C68FE1ECAB74C8 /* SPSignupserviceyearsFourViewModel.swift in Sources */,
+				BB4B647407A4231B74C0D34B /* SPSignupcompanysizeoptionSixViewModel.swift in Sources */,
+				07B252BB350BC5CE46767DD9 /* SPSignupNameViewModel.swift in Sources */,
+				B6DABA2A51FE7698960F09A6 /* ClientSignupBudgetViewModel.swift in Sources */,
+				0E5A36ADF34712B8B3EB0003 /* ClientSignupBlueprintsViewModel.swift in Sources */,
+				39DDB965252DC19141D8DE87 /* ClientSignuplanguageViewModel.swift in Sources */,
+				DAA303492699452EBDE9B7A9 /* SPSignupexpThreeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88ED74F1272FFE6F0088E3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88ED74F2272FFE6F0088E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88ED74F4272FFE6F0088E3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"build_up/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = build_up/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.builupapp.myapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88ED74F5272FFE6F0088E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"build_up/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = build_up/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.builupapp.myapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88ED74DF272FFE6E0088E3EF /* Build configuration list for PBXProject "build_up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED74F1272FFE6F0088E3EF /* Debug */,
+				88ED74F2272FFE6F0088E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ED74F3272FFE6F0088E3EF /* Build configuration list for PBXNativeTarget "build_up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED74F4272FFE6F0088E3EF /* Debug */,
+				88ED74F5272FFE6F0088E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ED74DC272FFE6E0088E3EF /* Project object */;
+}
